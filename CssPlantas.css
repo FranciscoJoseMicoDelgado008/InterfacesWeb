@@ -1,7 +1,110 @@
-p{
-    color: red;
-    background-color: aqua;
-}
-h1{
-    color: chartreuse;
-}
+/*propiedades de la cabecera*/
+    header{
+        background-color: #6c7439;
+        height: 200px;        
+        margin: -10px;
+    }
+/*Fin propiedades de la cabecera*/
+
+/*Propiedades del logo*/
+    img.logo{
+        height: 133px;
+        width: 176px;
+        position: absolute;
+        top: 60px;
+        left: 120px;
+        z-index: 1;
+    }
+/*Fin Propiedades del logo*/
+
+/*propiedades del nav - menú*/
+
+    nav{
+        position: absolute;
+        top: 139px;
+        left: 420px;
+        z-index: 2;
+    }
+
+    /*quitar estilo de lista*/
+    nav ul {
+        list-style:none;
+    }
+
+    /*posicionar la lista de tipo li a la izquierda, 
+    para mostrar opciones de menú una al lado de la otra*/
+    .nav > li {
+        float:left;
+    }
+
+    /*color, posición y tipo de letra del menú*/
+    .nav li a {
+        background-color: #6c7439;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+        width: 175px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /*color al pasar el ratón por encima de la opción*/
+    .nav li a:hover {
+        background-color:#b4baa4;
+    }
+
+    /*Ocultar subopciones de menú y controlar posición de la sublista*/
+    .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+    }
+
+    /*mostrar submenú al pasar por encima*/
+    .nav li:hover > ul {
+        display:block;
+    }
+
+    /*Posición relativa de la sublista*/
+    .nav li ul li {
+        position:relative;
+    }
+
+     /*Posición de la sublista*/
+    .nav li ul li ul {
+        right:-199px;
+        top:0px;
+    }
+
+/*fin propiedades del nav - menú*/
+
+/*Propiedades del slider*/
+    .position{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .slider{
+        background-image:url(Imagenes/Slider/planta1.jpg);
+        background-size: cover;
+        height: 50%;
+        width: 100%;
+        animation: animate 30s infinite;
+    }
+    @keyframes animate {
+        20%{
+            background-image: url(Imagenes/Slider/planta2.jpg);
+            background-size: cover;
+        }
+        40%{
+            background-image: url(Imagenes/Slider/planta3.jpg);
+            background-size: cover;
+        }
+        60%{
+            background-image: url(Imagenes/Slider/planta4.jpg);
+            background-size: cover;
+        }
+    }
+/*Fin Propiedades del slider*/
