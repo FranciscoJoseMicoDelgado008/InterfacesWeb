@@ -1,110 +1,241 @@
+/*propiedades generales*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 /*propiedades de la cabecera*/
-    header{
-        background-color: #6c7439;
-        height: 200px;        
-        margin: -10px;
-    }
+header {
+    background-color: #6c7439;
+    width: 100%;
+}
+
 /*Fin propiedades de la cabecera*/
 
 /*Propiedades del logo*/
-    img.logo{
-        height: 133px;
-        width: 176px;
-        position: absolute;
-        top: 60px;
-        left: 120px;
-        z-index: 1;
-    }
+img.logo {
+    height: 120px;
+    width: 163px;
+    position: absolute;
+    top: 39px;
+    left: 10%;
+}
+
 /*Fin Propiedades del logo*/
 
 /*propiedades del nav - menú*/
+/*menu*/
+.navegacion {
+    width: 100%;
+    padding-top: 124px;
+    padding-left: 375px;
+    background-color: #6c7439;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
-    nav{
-        position: absolute;
-        top: 139px;
-        left: 420px;
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 45px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #b4baa4;
+}
+
+/*fin menu*/
+/*submenu*/
+.submenu {
+    position: absolute;
+    width: 120%;
+    display: none;
+    background-color: #6c7439;
+    z-index: 2;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+/*fin submenu*/
+
+/*submenusub*/
+.submenusub {
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color: #6c7439;
+}
+
+.submenu li:hover .submenusub {
+    display: block;
+    right: -120px;
+}
+/*fin submenusub*/
+/*configurar menu responsive*/
+.checkbtn{
+    font-size: 45px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/*fin configurar menu responsive*/
+/*movil*/
+@media (max-width:1390px) {
+    .checkbtn{        
+        display: block;
+        margin-top: -100px;
+        margin-right: 10%;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        background:#6c7439;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
         z-index: 2;
     }
-
-    /*quitar estilo de lista*/
-    nav ul {
-        list-style:none;
+    .navegacion {
+        padding-top: 172px;
+        min-width: 490px;
     }
-
-    /*posicionar la lista de tipo li a la izquierda, 
-    para mostrar opciones de menú una al lado de la otra*/
-    .nav > li {
-        float:left;
+    .menu>li {
+        display: block;
     }
-
-    /*color, posición y tipo de letra del menú*/
-    .nav li a {
-        background-color: #6c7439;
-        color:#fff;
-        text-decoration:none;
-        padding:10px 12px;
-        display:block;
-        width: 175px;
-        font-weight: bold;
-        font-size: 20px;
+    .menu li a{
+        text-align: left;
+        margin-left: 40%;
     }
-
-    /*color al pasar el ratón por encima de la opción*/
-    .nav li a:hover {
-        background-color:#b4baa4;
+    header nav ul li .submenu{
+        position: relative;
     }
-
-    /*Ocultar subopciones de menú y controlar posición de la sublista*/
-    .nav li ul {
-        display:none;
-        position:absolute;
-        min-width:140px;
+    .submenu{
+        left: 0;
     }
-
-    /*mostrar submenú al pasar por encima*/
-    .nav li:hover > ul {
-        display:block;
+    .submenu li a{
+        text-align: left;
+        margin-left: 40%;
     }
-
-    /*Posición relativa de la sublista*/
-    .nav li ul li {
-        position:relative;
+    
+    header nav ul li .submenu .submenusub{
+        position: relative;
     }
-
-     /*Posición de la sublista*/
-    .nav li ul li ul {
-        right:-199px;
-        top:0px;
+    .submenusub{
+        left: 0;
     }
-
+    .submenusub li a{
+        text-align: left;
+        margin-left: 45%;
+    }
+}
 /*fin propiedades del nav - menú*/
 
 /*Propiedades del slider*/
-    .position{
-        position: absolute;
-        top:50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .slider{
-        background-image:url(Imagenes/Slider/planta1.jpg);
+.position {
+    position: relative;
+    margin-top: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider {
+    background-image: url(Imagenes/Slider/planta1.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    animation: animate 30s infinite;
+}
+
+@keyframes animate {
+    20% {
+        background-image: url(Imagenes/Slider/planta2.jpg);
         background-size: cover;
-        height: 50%;
-        width: 100%;
-        animation: animate 30s infinite;
     }
-    @keyframes animate {
-        20%{
-            background-image: url(Imagenes/Slider/planta2.jpg);
-            background-size: cover;
-        }
-        40%{
-            background-image: url(Imagenes/Slider/planta3.jpg);
-            background-size: cover;
-        }
-        60%{
-            background-image: url(Imagenes/Slider/planta4.jpg);
-            background-size: cover;
-        }
+
+    40% {
+        background-image: url(Imagenes/Slider/planta3.jpg);
+        background-size: cover;
     }
+
+    60% {
+        background-image: url(Imagenes/Slider/planta4.jpg);
+        background-size: cover;
+    }
+}
+
 /*Fin Propiedades del slider*/
+
+
+#plantasPrincipal {
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    right: 200px;
+    padding-left: 600px;
+    padding-bottom: 500px;
+    padding-right: 600px;
+}
+
+.interior {
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 220px;
+    padding-right: 220px;
+    margin-top: 20px;
+    background-image: url(Imagenes/ImagenesPrincipales/PlantasInterior.jpg);
+
+}
+
+.exterior {
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    right: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 220px;
+    padding-right: 220px;
+    margin-top: -240px;
+}
+
+p {
+    background-color: aqua;
+}
