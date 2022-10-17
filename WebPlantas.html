@@ -8,28 +8,36 @@
     <title>Plantas</title>
     <!--referencia a hoja de estilo-->
     <link rel="stylesheet" href="CssPlantas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 
 <body>
 
     <header>
-        <!--aquí añadimos el logo-->
-        <img class="logo" src="Imagenes/Logo/logo.png">
+        <nav class="navegacion">
 
-        <nav>
+            <!--aquí añadimos el logo-->
+            <img href="a" class="logo" src="Imagenes/Logo/logo.png">
+
+            <!--menú bar para movil/tablet-->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
             <!--aquí añadimos el menú-->
-            <ul class="nav">
-                <li><a href="">Plantas</a>
-                    <ul>
-                        <li><a href="">Interior</a>
-                            <ul>
+            <ul class="menu">
+                <li><a href="">Plantas <span class="fas fa-caret-down"></span></a>
+                    <ul class="submenu">
+                        <li><a href="">Interior <span class="fas fa-caret-down"></span></a>
+                            <ul class="submenusub">
                                 <li><a href="">Sin Flor</a></li>
                                 <li><a href="">Con Flor</a></li>
                                 <li><a href="">Cáctus</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Exterior</a>
-                            <ul>
+                        <li><a href="">Exterior <span class="fas fa-caret-down"></span></a>
+                            <ul class="submenusub">
                                 <li><a href="">Sin Flor</a></li>
                                 <li><a href="">Con Flor</a></li>
                                 <li><a href="">Cáctus</a></li>
@@ -37,24 +45,24 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="">Accesorios</a>
-                    <ul>
+                <li><a href="">Accesorios <span class="fas fa-caret-down"></span></a>
+                    <ul class="submenu">
                         <li><a href="">Macetas</a></li>
                         <li><a href="">Abonos</a></li>
                         <li><a href="">Herramientas</a></li>
                         <li><a href="">Riego</a></li>
                     </ul>
                 </li>
-                <li><a href="">Estaciones</a>
-                    <ul>
+                <li><a href="">Estaciones <span class="fas fa-caret-down"></span></a>
+                    <ul class="submenu">
                         <li><a href="">Primavera</a></li>
                         <li><a href="">Verano</a></li>
                         <li><a href="">Otoño</a></li>
                         <li><a href="">Invierno</a></li>
                     </ul>
                 </li>
-                <li><a href="">Curiosidades</a>
-                    <ul>
+                <li><a href="">Curiosidades  <span class="fas fa-caret-down"></span></a>
+                    <ul class="submenu">
                         <li><a href="">Consejos a la hora de elegir tu planta</a></li>
                         <li><a href="">Plantas para purificar el aire</a></li>
                         <li><a href="">Consejos</a></li>
@@ -71,14 +79,22 @@
             <div class="slider position"></div>
         </div>
     </section>
-    <section>
-        <!--aquí añadimos las diferentes secciones (todo lo k hay a partir del slider)-->
-        <article id="paginaPrincipal">
-            <!--creamos un article para cada parte de la página web-->
-        </article>
-
-
-    </section>
+    <!--aquí añadimos las diferentes secciones (todo lo k hay a partir del slider)-->
+   <!-- <section id="plantasPrincipal">
+        <div class="interior">
+            <h2>INTERIOR</h2>
+        </div>
+        <p>Pocas cosas pueden elevar la decoración de tu piso como las plantas de interior. Hay quienes lo consideran un
+            hito de la adultez, otros una moda pasajera; pero la verdad es que las plantas son una pieza esencial que
+            añade un extra de color y de humanidad a los espacios. Puede que quieras crear una jardín amazónico en tu
+            salón o que apenas quieras unas plantas para la mesa de noche del dormitorio; con experiencia plantil o sin
+            ella, has llegado al sitio correcto. En Be Green encontrarás las plantas de interior más guapas y te
+            ayudaremos a mantenerlas con vida.</p>
+        <div class="exterior">
+            <h2>EXTERIOR</h2>
+        </div>
+        <p>xxxxxxxxx</p>
+    </section>-->
 
 
 </body>
