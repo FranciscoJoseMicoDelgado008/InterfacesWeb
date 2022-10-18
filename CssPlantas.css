@@ -92,74 +92,89 @@ img.logo {
     display: block;
     right: -120px;
 }
+
 /*fin submenusub*/
 /*configurar menu responsive*/
-.checkbtn{
+.checkbtn {
     font-size: 45px;
     color: #fff;
     float: right;
     cursor: pointer;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
+
 /*fin configurar menu responsive*/
 /*movil*/
 @media (max-width:1390px) {
-    .checkbtn{        
+    .checkbtn {
         display: block;
         margin-top: -100px;
         margin-right: 10%;
     }
-    ul{
+
+    ul {
         position: fixed;
         width: 100%;
-        background:#6c7439;
+        background: #6c7439;
         left: -100%;
         text-align: center;
         transition: all .5s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
     }
-    #check:checked ~ ul{
+
+    #check:checked~ul {
         left: 0;
         z-index: 2;
     }
+
     .navegacion {
         padding-top: 172px;
         min-width: 490px;
     }
+
     .menu>li {
         display: block;
     }
-    .menu li a{
+
+    .menu li a {
         text-align: left;
         margin-left: 40%;
     }
-    header nav ul li .submenu{
+
+    header nav ul li .submenu {
         position: relative;
     }
-    .submenu{
+
+    .submenu {
         left: 0;
     }
-    .submenu li a{
+
+    .submenu li a {
         text-align: left;
         margin-left: 40%;
     }
-    
-    header nav ul li .submenu .submenusub{
+
+    header nav ul li .submenu .submenusub {
         position: relative;
     }
-    .submenusub{
+
+    .submenusub {
         left: 0;
     }
-    .submenusub li a{
+
+    .submenusub li a {
         text-align: left;
         margin-left: 45%;
     }
 }
+
 /*fin propiedades del nav - menú*/
 
 /*Propiedades del slider*/
@@ -201,41 +216,42 @@ img.logo {
 #plantasPrincipal {
     border-style: solid;
     border-color: black;
-    position: absolute;
-    top: 800px;
-    left: 200px;
-    right: 200px;
-    padding-left: 600px;
-    padding-bottom: 500px;
-    padding-right: 600px;
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: -130px;
 }
 
 .interior {
     border-style: solid;
     border-color: black;
-    position: absolute;
-    left: 50px;
     padding-top: 90px;
     padding-bottom: 90px;
-    padding-left: 220px;
-    padding-right: 220px;
     margin-top: 20px;
-    background-image: url(Imagenes/ImagenesPrincipales/PlantasInterior.jpg);
-
+    text-align: center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/PlantasInterior.jpg);
+    color: #fff;
 }
 
 .exterior {
     border-style: solid;
     border-color: black;
-    position: absolute;
-    right: 50px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 220px;
-    padding-right: 220px;
+    text-align: center;
     margin-top: -240px;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/PlantaExterior1.png);
+    color: #fff;
 }
 
-p {
+.comentPlantasInterior {
     background-color: aqua;
+}
+
+#comentPlantasExterior {
+    background-color: chocolate;
 }
