@@ -212,7 +212,7 @@ img.logo {
 
 /*Fin Propiedades del slider*/
 
-
+/*Propiedades del apartado plantas página principal*/
 #plantasPrincipal {
     border-style: solid;
     border-color: black;
@@ -225,8 +225,8 @@ img.logo {
 .interior {
     border-style: solid;
     border-color: black;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    width: 760px;
+    height: 240px;
     margin-top: 20px;
     text-align: center;
     background-image: linear-gradient(0deg,
@@ -240,6 +240,8 @@ img.logo {
     border-style: solid;
     border-color: black;
     text-align: center;
+    width: 760px;
+    height: 240px;
     margin-top: -240px;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
@@ -248,10 +250,78 @@ img.logo {
     color: #fff;
 }
 
-.comentPlantasInterior {
+#comentPlantasInterior {
     background-color: aqua;
+    width: 760px;
+    height: 240px;
 }
 
 #comentPlantasExterior {
     background-color: chocolate;
+    width: 760px;
+    height: 240px;
 }
+/*Fin del apartado accesorios página principal*/
+
+/*Propiedades del apartado accesorios página principal*/
+#accesoriosPrincipal{
+    border-style: solid;
+    border-color: black;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 90px;
+}
+
+.macetas {
+    border-style: solid;
+    border-color: black;
+    width: 760px;
+    height: 350px;
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/macetas.jpg);
+    color: #fff;
+}
+
+.abonos {
+    border-style: solid;
+    border-color: black;
+    width: 760px;
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/Abonos.jpg);
+    color: #fff;
+}
+
+.herramientas {
+    border-style: solid;
+    border-color: black;
+    height: 350px;
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/Herramientas.jpg);
+    color: #fff;
+}
+
+.riego {
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/riego.jpg);
+    color: #fff;
+}
+
+/*Fin del apartado accesorios página principal*/
