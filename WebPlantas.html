@@ -17,7 +17,7 @@
         <nav class="navegacion">
 
             <!--aquí añadimos el logo-->
-            <img href="a" class="logo" src="Imagenes/Logo/logo.png">
+            <a href="#"><img class="logo" src="Imagenes/Logo/logo.png"></a>
 
             <!--menú bar para movil/tablet-->
             <input type="checkbox" id="check">
@@ -80,52 +80,112 @@
         </div>
     </section>
     <!--Una tabla de la página de plantas interior y exterior-->
-    <table id="plantasPrincipal">
-        <caption>Plantas</caption>
-
-        <tr>
-            <td class="interior">
-                <h2>INTERIOR</h2>
-            </td>
-            <td class="exterior">
-                <h2>EXTERIOR</h2>
-            </td>
-        </tr>
-        <tr>
-            <td id="comentPlantasInterior">
-                <p>.</p>
-            </td>
-            <td id="comentPlantasExterior">
-                <p>.</p>
-            </td>
-        </tr>
-
-    </table>
-
-<!--Una tabla de la página accesorios-->
-    <table id="accesoriosPrincipal">
-        <caption>Accesorios</caption>
-
-        <tr>
-            <td class="macetas">
-                <h2>MACETAS</h2>
-            </td>
-            <td class="abonos">
-                <h2>ABONOS</h2>
-            </td>
-        </tr>
-        <td class="herramientas">
-            <h2>HERRAMIENTAS</h2>
-        </td>
-        <td class="riego">
-            <h2>RIEGO</h2>
-        </td>
-        </tr>
-
-    </table>
+    <fieldset id="plantasPrincipal">
+        <legend>PLANTAS</legend>
+        <table>
+            <tr>
+                <td class="cuadradosTablasPagPrin" id="interior">
+                    <h2>INTERIOR</h2>
+                </td>
+                <td class="cuadradosTablasPagPrin" id="exterior">
+                    <h2>EXTERIOR</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="cuadradosTablasPagPrin" id="comentPlantasInterior">
+                    <p>.</p>
+                </td>
+                <td class="cuadradosTablasPagPrin" id="comentPlantasExterior">
+                    <p>.</p>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
 
 
+    <!--Una tabla de la página principal accesorios-->
+    <fieldset>
+        <legend>ACCESORIOS</legend>
+        <table>
+            <tr>
+                <td class="cuadradosTablasPagPrin" id="macetas">
+                    <h2>MACETAS</h2>
+                </td>
+                <td class="cuadradosTablasPagPrin" id="abonos">
+                    <h2>ABONOS</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="cuadradosTablasPagPrin" id="herramientas">
+                    <h2>HERRAMIENTAS</h2>
+                </td>
+                <td class="cuadradosTablasPagPrin" id="riego">
+                    <h2>RIEGO</h2>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <!--Una tabla de la página principal estaciones-->
+    <fieldset>
+        <legend>ESTACIONES</legend>
+        <table>
+            <tr>
+                <td class="cuadradosTablasPagPrinDos" id="primavera">
+                    <h2>PRIMAVERA</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="cuadradosTablasPagPrinDos" id="verano">
+                    <h2>VERANO</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="cuadradosTablasPagPrinDos" id="otoño">
+                    <h2>OTOÑO</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="cuadradosTablasPagPrinDos" id="invierno">
+                    <h2>INVIERNO</h2>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
 
 </body>
+
+<!--Añadimos el pie de página-->
+<footer id="pie">
+    <div class="content">
+        <div class="top">
+            <div></div>
+            <div id="ubicacion">
+                <P>UBICACIÓN:</P>
+            </div>
+            <div id="siguenos">
+                <P>SÍGUENOS:</P>
+            </div>
+        </div>
+        <div class="top">
+            <div class="copy-details">
+                <span class="copy_name">© 2022 Reservados todos los derechos</span>
+            </div>
+            <div class="ubicacionIcono">
+                <a href="https://www.google.es/maps/place/I.E.S.+Abastos/@39.4676146,-0.3886331,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f46da4855e1:0x9c6c795bc92d164e!8m2!3d39.4676091!4d-0.388645?hl=es"
+                    target="_blank"> I.E.S. Abastos, Carrer D'Alberic, Valencia <i
+                        class="fa-sharp fa-solid fa-location-dot" id="iconoUbicacion"></i></a>
+
+            </div>
+            <div class="media-icons">
+                <a href="" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="" title="Youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
 
 </html>

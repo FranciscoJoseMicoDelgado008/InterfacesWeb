@@ -4,7 +4,15 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #CDD985;
+}
+h2{
+    color:#fff;
 }
 
 /*propiedades de la cabecera*/
@@ -113,7 +121,7 @@ img.logo {
     .checkbtn {
         display: block;
         margin-top: -100px;
-        margin-right: 10%;
+        margin-right: 20%;
     }
 
     ul {
@@ -188,6 +196,8 @@ img.logo {
 .slider {
     background-image: url(Imagenes/Slider/planta1.jpg);
     background-size: cover;
+    
+   
     height: 450px;
     width: 100%;
     animation: animate 30s infinite;
@@ -211,43 +221,52 @@ img.logo {
 }
 
 /*Fin Propiedades del slider*/
+/*Propiedades de los cudrados con titulo*/
+fieldset {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 90px;   
+    border-color: #6c7439;
+    /*padding-inline-start: 0.75em;*/
+}
+
+legend {
+    font-size: 35px;
+    color: #6c7439;     
+    font-weight: bold; 
+}
+
+.cuadradosTablasPagPrin {
+    border-style: solid;
+    border-width: 25px;
+    width: 760px;
+    height: 350px;
+    text-align: center;
+    color: #CDD985; 
+}
 
 /*Propiedades del apartado plantas página principal*/
 #plantasPrincipal {
-    border-style: solid;
-    border-color: black;
-    position: relative;
-    margin-right: 10%;
-    margin-left: 10%;
     margin-top: -130px;
 }
 
-.interior {
-    border-style: solid;
-    border-color: black;
-    width: 760px;
-    height: 240px;
-    margin-top: 20px;
-    text-align: center;
+#interior {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url(Imagenes/ImagenesPrincipales/PlantasInterior.jpg);
-    color: #fff;
+        background-size:cover;
+        background-position:center;        
 }
 
-.exterior {
-    border-style: solid;
-    border-color: black;
-    text-align: center;
-    width: 760px;
-    height: 240px;
-    margin-top: -240px;
+#exterior {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url(Imagenes/ImagenesPrincipales/PlantaExterior1.png);
-    color: #fff;
+        background-size:cover;
+        background-position:center;   
+       
 }
 
 #comentPlantasInterior {
@@ -261,67 +280,190 @@ img.logo {
     width: 760px;
     height: 240px;
 }
+
 /*Fin del apartado accesorios página principal*/
 
 /*Propiedades del apartado accesorios página principal*/
-#accesoriosPrincipal{
-    border-style: solid;
-    border-color: black;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 90px;
-}
 
-.macetas {
-    border-style: solid;
-    border-color: black;
-    width: 760px;
-    height: 350px;
-    margin-top: 20px;
-    text-align: center;
+#macetas {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url(Imagenes/ImagenesPrincipales/macetas.jpg);
-    color: #fff;
+        background-size:cover;
+        background-position:center;   
 }
 
-.abonos {
-    border-style: solid;
-    border-color: black;
-    width: 760px;
-    margin-top: 20px;
-    text-align: center;
+#abonos {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url(Imagenes/ImagenesPrincipales/Abonos.jpg);
-    color: #fff;
+        background-size:cover;
+        background-position:center;   
 }
 
-.herramientas {
-    border-style: solid;
-    border-color: black;
-    height: 350px;
-    margin-top: 20px;
-    text-align: center;
+#herramientas {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url(Imagenes/ImagenesPrincipales/Herramientas.jpg);
-    color: #fff;
+        background-size:cover;
+        background-position:center;   
 }
 
-.riego {
-    border-style: solid;
-    border-color: black;
-    margin-top: 20px;
-    text-align: center;
+#riego {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url(Imagenes/ImagenesPrincipales/riego.jpg);
-    color: #fff;
+        background-size:cover;
+        background-position:center;   
 }
 
 /*Fin del apartado accesorios página principal*/
+
+/*Propiedades del apartado estaciones página principal*/
+.cuadradosTablasPagPrinDos{
+    border-style: solid;
+    border-width: 25px;
+    width: 1520px;
+    height: 270px;
+    text-align: center;
+    color: #CDD985;
+}
+
+#primavera {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/primavera.jpg);
+        background-size:cover;
+        background-position:center;   
+}
+
+#verano {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/verano.jpg);
+        background-size:cover;
+        background-position:center;   
+}
+
+#otoño {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/otoño.jpg);
+        background-size:cover;
+        background-position:center;   
+}
+
+#invierno {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/invierno.jpg);
+        background-size:cover;
+        background-position:center;   
+}
+
+/*Fin del apartado estaciones página principal*/
+
+/*Pie*/
+footer{
+    background-color: #6c7439;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 50px;
+}
+footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .top .copy-details{
+    color: #fff;
+    font-size: 16px;
+
+}
+.content .top .media-icons{
+    display: flex;
+}
+.content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;  
+    transition: all 0.4s ease;  
+}
+/*propiedades de sigueme del pie de página*/
+#siguenos{
+    color: #fff;    
+    font-size: 18px;   
+    font-weight: bold; 
+    text-decoration: none;     
+    margin-bottom: 15px;
+    margin-right: 115px;
+}
+/*propiedades de la ubicación del pie de página*/
+#ubicacion{
+    color: #fff;    
+    font-size: 18px;   
+    font-weight: bold; 
+    text-decoration: none;     
+    margin-bottom: 15px;
+    margin-right: -60px;
+}
+#iconoUbicacion{
+    margin: 0 8px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px; 
+    transition: all 0.4s ease;  
+}
+/*instagram*/
+.top .media-icons a:nth-child(1){
+    background: #E1306C;
+}
+.top .media-icons a:nth-child(1):hover{
+    color: #E1306C;
+    background: #fff;
+}
+/*twitter*/
+.top .media-icons a:nth-child(2){
+    background: #1DA1F2;
+}
+.top .media-icons a:nth-child(2):hover{
+    color: #1DA1F2;
+    background: #fff;
+}
+/*facebook*/
+.top .media-icons a:nth-child(3){
+    background: #426782;
+}
+.top .media-icons a:nth-child(3):hover{
+    color: #426782;
+    background: #fff;
+}
+/*youtube*/
+.top .media-icons a:nth-child(4){
+    background: #FF0000;
+}
+.top .media-icons a:nth-child(4):hover{
+    color: #FF0000;
+    background: #fff;
+}
+/*Fin pie*/
