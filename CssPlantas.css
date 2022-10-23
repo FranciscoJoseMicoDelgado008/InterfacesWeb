@@ -244,7 +244,12 @@ legend {
     text-align: center;
     color: #CDD985; 
 }
-
+.quitoBordeAbajo{
+    border-bottom: none;
+}
+.quitoBordeArriba{
+    border-top: none;
+}
 /*Propiedades del apartado plantas página principal*/
 #plantasPrincipal {
     margin-top: -130px;
@@ -269,16 +274,10 @@ legend {
        
 }
 
-#comentPlantasInterior {
-    background-color: aqua;
-    width: 760px;
-    height: 240px;
-}
-
-#comentPlantasExterior {
+.comentariosPagPrincipal {
     background-color: chocolate;
     width: 760px;
-    height: 240px;
+    height: 120px;
 }
 
 /*Fin del apartado accesorios página principal*/
@@ -370,6 +369,45 @@ legend {
 }
 
 /*Fin del apartado estaciones página principal*/
+
+/*propiedades del apartado curiosidades página principal*/
+
+#cuantas {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/regarPlanta.jpg);
+        background-size:cover;
+        background-position:center;        
+}
+
+#transplantar {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/transplantar.jpg);
+        background-size:cover;
+        background-position:center;      
+}
+#cuidados {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/cuidadoCactus.jpg);
+        background-size:cover;
+        background-position:center;        
+}
+
+#consejos {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Imagenes/ImagenesPrincipales/cuidadosHuerto.jpg);
+        background-size:cover;
+        background-position:center;      
+}
+
+/*Fin del apartado curiosidades página principal*/
 
 /*Pie*/
 footer{
