@@ -4,20 +4,17 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background: #CDD985;
-}
-h2{
-    color:#fff;
+h2 {
+    color: #fff;
 }
 
 /*propiedades de la cabecera*/
 header {
-    background-color: #6c7439;
+    background-color: #558976;
     width: 100%;
 }
 
@@ -25,11 +22,11 @@ header {
 
 /*Propiedades del logo*/
 img.logo {
-    height: 120px;
-    width: 163px;
+    height: 130px;
+    width: 160px;
     position: absolute;
-    top: 39px;
-    left: 10%;
+    top: 28px;
+    left: 6%;
 }
 
 /*Fin Propiedades del logo*/
@@ -40,7 +37,7 @@ img.logo {
     width: 100%;
     padding-top: 124px;
     padding-left: 375px;
-    background-color: #6c7439;
+    background-color: #558976;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -71,7 +68,7 @@ img.logo {
     position: absolute;
     width: 120%;
     display: none;
-    background-color: #6c7439;
+    background-color: #558976;
     z-index: 2;
 }
 
@@ -93,7 +90,7 @@ img.logo {
     position: absolute;
     width: 100%;
     display: none;
-    background-color: #6c7439;
+    background-color: #558976;
 }
 
 .submenu li:hover .submenusub {
@@ -127,7 +124,7 @@ img.logo {
     ul {
         position: fixed;
         width: 100%;
-        background: #6c7439;
+        background: #558976;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -196,8 +193,8 @@ img.logo {
 .slider {
     background-image: url(Imagenes/Slider/planta1.jpg);
     background-size: cover;
-    
-   
+
+
     height: 450px;
     width: 100%;
     animation: animate 30s infinite;
@@ -221,221 +218,151 @@ img.logo {
 }
 
 /*Fin Propiedades del slider*/
-/*Propiedades de los cudrados con titulo*/
-fieldset {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 90px;   
-    border-color: #6c7439;
-    /*padding-inline-start: 0.75em;*/
+
+/*Propiedades Frase*/
+section.seccionFrase {
+    height: 300px;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: justify;
+    font-style: italic;
+    color: #558976;;
 }
 
-legend {
-    font-size: 35px;
-    color: #6c7439;     
-    font-weight: bold; 
+#positionFrase {
+    position: relative;
+    margin-top: -135px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-.cuadradosTablasPagPrin {
-    border-style: solid;
-    border-width: 25px;
-    width: 760px;
-    height: 350px;
+#autor {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.quoteGrande {
+    font-size: 100px;
+}
+
+/*Propiedades 3 cuadrados página principal con tabla*/
+.tftable {
+    color: #111;
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-right: 5%;    
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.tftable td {
+    width: 30%; 
+}
+
+.tftable tr#subirLinea{
+    margin-top: -20px;
+}
+.tftable td p{
+    font-size: 15px;
+}
+.tamanyoColumna{      
+    height: 300px;
+}
+.tamanyoColumnaTitulo{
+    height: 60px;
+}
+.tamanyoColumnaTexto{
+    height: 100px;    
+    text-align: justify;
+    padding: 20px;
+}
+#imagenUno {
+    background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
+}
+
+#imagenDos {
+    background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
+}
+
+#imagenTres {
+    background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
+}
+
+.textoTituloPlanta{
     text-align: center;
-    color: #CDD985; 
-}
-.quitoBordeAbajo{
-    border-bottom: none;
-}
-.quitoBordeArriba{
-    border-top: none;
-}
-/*Propiedades del apartado plantas página principal*/
-#plantasPrincipal {
-    margin-top: -130px;
-}
+    color: #558976;
 
-#interior {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/PlantasInterior.jpg);
-        background-size:cover;
-        background-position:center;        
 }
+summary{
+   font-weight: bold;
+   color:#558976
+}
+/*Fin Propiedades 3 cuadrados página principal con tabla*/
 
-#exterior {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/PlantaExterior1.png);
-        background-size:cover;
-        background-position:center;   
-       
+/*movil*/
+@media (max-width:1000px) {
+    .frase {
+        font-size: 30px !important;
+    }
+
+    .autorPequenyo {
+        font-size: 15px !important;
+    }
+
+    .quotePequenya {
+        font-size: 65px !important;
+    }
 }
 
-.comentariosPagPrincipal {
-    background-color: chocolate;
-    width: 760px;
-    height: 120px;
+@media (max-width:810px) {
+    .frase {
+        font-size: 25px !important;
+    }
+
+    .autorPequenyo {
+        font-size: 10px !important;
+    }
+
+    .quotePequenya {
+        font-size: 50px !important;
+    }
 }
 
-/*Fin del apartado accesorios página principal*/
 
-/*Propiedades del apartado accesorios página principal*/
-
-#macetas {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/macetas.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-#abonos {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/Abonos.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-#herramientas {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/Herramientas.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-#riego {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/riego.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-/*Fin del apartado accesorios página principal*/
-
-/*Propiedades del apartado estaciones página principal*/
-.cuadradosTablasPagPrinDos{
-    border-style: solid;
-    border-width: 25px;
-    width: 1520px;
-    height: 270px;
-    text-align: center;
-    color: #CDD985;
-}
-
-#primavera {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/primavera.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-#verano {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/verano.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-#otoño {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/otoño.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-#invierno {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/invierno.jpg);
-        background-size:cover;
-        background-position:center;   
-}
-
-/*Fin del apartado estaciones página principal*/
-
-/*propiedades del apartado curiosidades página principal*/
-
-#cuantas {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/regarPlanta.jpg);
-        background-size:cover;
-        background-position:center;        
-}
-
-#transplantar {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/transplantar.jpg);
-        background-size:cover;
-        background-position:center;      
-}
-#cuidados {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/cuidadoCactus.jpg);
-        background-size:cover;
-        background-position:center;        
-}
-
-#consejos {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url(Imagenes/ImagenesPrincipales/cuidadosHuerto.jpg);
-        background-size:cover;
-        background-position:center;      
-}
-
-/*Fin del apartado curiosidades página principal*/
 
 /*Pie*/
-footer{
-    background-color: #6c7439;
+footer {
+    background-color: #558976;
     width: 100%;
     bottom: 0;
     left: 0;
     margin-top: 50px;
 }
-footer .content{
+
+footer .content {
     max-width: 1250px;
     margin: auto;
     padding: 30px 40px 40px 40px;
 }
-footer .content .top{
+
+footer .content .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.content .top .copy-details{
+
+.content .top .copy-details {
     color: #fff;
     font-size: 16px;
 
 }
-.content .top .media-icons{
+
+.content .top .media-icons {
     display: flex;
 }
-.content .top .media-icons a{
+
+.content .top .media-icons a {
     height: 40px;
     width: 40px;
     margin: 0 8px;
@@ -444,64 +371,76 @@ footer .content .top{
     line-height: 40px;
     color: #fff;
     font-size: 17px;
-    text-decoration: none;  
-    transition: all 0.4s ease;  
+    text-decoration: none;
+    transition: all 0.4s ease;
 }
+
 /*propiedades de sigueme del pie de página*/
-#siguenos{
-    color: #fff;    
-    font-size: 18px;   
-    font-weight: bold; 
-    text-decoration: none;     
+#siguenos {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
     margin-bottom: 15px;
     margin-right: 115px;
 }
+
 /*propiedades de la ubicación del pie de página*/
-#ubicacion{
-    color: #fff;    
-    font-size: 18px;   
-    font-weight: bold; 
-    text-decoration: none;     
+#ubicacion {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
     margin-bottom: 15px;
     margin-right: -60px;
 }
-#iconoUbicacion{
+
+#iconoUbicacion {
     margin: 0 8px;
     line-height: 40px;
     color: #fff;
-    font-size: 17px; 
-    transition: all 0.4s ease;  
+    font-size: 17px;
+    transition: all 0.4s ease;
 }
+
 /*instagram*/
-.top .media-icons a:nth-child(1){
+.top .media-icons a:nth-child(1) {
     background: #E1306C;
 }
-.top .media-icons a:nth-child(1):hover{
+
+.top .media-icons a:nth-child(1):hover {
     color: #E1306C;
     background: #fff;
 }
+
 /*twitter*/
-.top .media-icons a:nth-child(2){
+.top .media-icons a:nth-child(2) {
     background: #1DA1F2;
 }
-.top .media-icons a:nth-child(2):hover{
+
+.top .media-icons a:nth-child(2):hover {
     color: #1DA1F2;
     background: #fff;
 }
+
 /*facebook*/
-.top .media-icons a:nth-child(3){
+.top .media-icons a:nth-child(3) {
     background: #426782;
 }
-.top .media-icons a:nth-child(3):hover{
+
+.top .media-icons a:nth-child(3):hover {
     color: #426782;
     background: #fff;
 }
+
 /*youtube*/
-.top .media-icons a:nth-child(4){
+.top .media-icons a:nth-child(4) {
     background: #FF0000;
 }
-.top .media-icons a:nth-child(4):hover{
+
+.top .media-icons a:nth-child(4):hover {
     color: #FF0000;
     background: #fff;
 }
+
 /*Fin pie*/
