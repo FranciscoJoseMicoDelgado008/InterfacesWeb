@@ -226,7 +226,8 @@ section.seccionFrase {
     margin-left: 15%;
     text-align: justify;
     font-style: italic;
-    color: #558976;;
+    color: #558976;
+    ;
 }
 
 #positionFrase {
@@ -251,32 +252,37 @@ section.seccionFrase {
     width: 90%;
     border-collapse: collapse;
     margin-left: 5%;
-    margin-right: 5%;    
+    margin-right: 5%;
     border-collapse: separate;
     border-spacing: 10px;
 }
 
 .tftable td {
-    width: 30%; 
+    width: 30%;
 }
 
-.tftable tr#subirLinea{
+.tftable tr#subirLinea {
     margin-top: -20px;
 }
-.tftable td p{
+
+.tftable td p {
     font-size: 15px;
 }
-.tamanyoColumna{      
+
+.tamanyoColumna {
     height: 300px;
 }
-.tamanyoColumnaTitulo{
+
+.tamanyoColumnaTitulo {
     height: 60px;
 }
-.tamanyoColumnaTexto{
-    height: 100px;    
+
+.tamanyoColumnaTexto {
+    height: 100px;
     text-align: justify;
     padding: 20px;
 }
+
 #imagenUno {
     background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
 }
@@ -289,18 +295,60 @@ section.seccionFrase {
     background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
 }
 
-.textoTituloPlanta{
+.textoTituloPlanta {
     text-align: center;
     color: #558976;
 
 }
-summary{
-   font-weight: bold;
-   color:#558976
+
+summary {
+    font-weight: bold;
+    color: #558976
 }
+
 /*Fin Propiedades 3 cuadrados página principal con tabla*/
 
+/*Frase dos*/
+section.seccionFrase2 {
+    text-align: center;
+    font-style: italic;
+    color: #558976;
+    height: 310px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    background-color: #dff5ed;
+    font-size: 22px;
+    opacity: .6;
+}
+
+p.alinear {
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 38px;
+}
+
+#iconoMano {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    opacity: .4;
+}
+
+/*Fin Frase dos*/
+
 /*movil*/
+@media (max-width:1600px) {    
+    section.seccionFrase2 {
+        font-size: 19px !important;
+    }
+    
+    p.alinear {
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+        line-height: 25px !important;
+    }
+}
 @media (max-width:1000px) {
     .frase {
         font-size: 30px !important;
@@ -326,6 +374,20 @@ summary{
 
     .quotePequenya {
         font-size: 50px !important;
+    }
+    section.seccionFrase2 {
+        font-size: 16px !important;
+    }
+    
+    p.alinear {
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+        line-height: 18px !important;
+    }
+    
+    #iconoMano {
+        width: 80px !important;
+        height: 80px  !important;
     }
 }
 
