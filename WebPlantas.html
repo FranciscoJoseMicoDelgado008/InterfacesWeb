@@ -17,7 +17,7 @@
         <nav class="navegacion">
 
             <!--aquí añadimos el logo-->
-            <a href="#"><img class="logo" src="Imagenes/Logo/logo.png"></a>
+            <a href="#"><img class="logo" src="Imagenes/Logo/logoblanco.png"></a>
 
             <!--menú bar para movil/tablet-->
             <input type="checkbox" id="check">
@@ -79,164 +79,158 @@
             <div class="slider position"></div>
         </div>
     </section>
-    <!--Una tabla de la página de plantas interior y exterior-->
-    <fieldset id="plantasPrincipal">
-        <legend>PLANTAS</legend>
-        <table>
-            <tr>
-                <td class="cuadradosTablasPagPrin quitoBordeAbajo" id="interior">
-                    <h2>INTERIOR</h2>
-                </td>
-                <td class="cuadradosTablasPagPrin quitoBordeAbajo" id="exterior">
-                    <h2>EXTERIOR</h2>
-                </td>
-            </tr>
-            <tr>
-                <td class="cuadradosTablasPagPrin quitoBordeArriba comentariosPagPrincipal">
-                    <p>¿Has decidido decorar tu casa este invierno y no sabes muy bien cómo?, !Te vamos a ayudar!</p>
-                </td>
-                <td class="cuadradosTablasPagPrin quitoBordeArriba comentariosPagPrincipal">
-                    <p>Las plantas de exterior son unas alternativas idóneas para decorar esos espacios que se 
-                        encuentran de puertas hacia afuera de tus recintos con la mayor distinción. Se trata de 
-                        una fórmula muy agradecida y, de hecho, continúa de moda en numerosos exteriores, por lo 
-                        que podemos asegurarte que su popularidad sigue intacta.</p>
-                </td>
-            </tr>
-        </table>
-    </fieldset>
+    <!--Frase debajo del slider-->
+    <section class="seccionFrase">
+        <p id="positionFrase" class="frase"><i class="fa-sharp fa-solid fa-quote-right quoteGrande quotePequenya"></i>
+            Si supiera que el mundo se acaba mañana, yo, hoy todavía, plantaría un árbol. </p>
+        <p id="autor" class="autorPequenyo">Martin Luther King.</p>
+    </section>
+
+    <!--Una tabla de la primera parte de la página principal y los textos y botones que están debajo-->
+    <table class="tftable">
+        <tr>
+            <td class="tamanyoColumna" id="imagenUno"></td>
+            <td class="tamanyoColumna" id="imagenDos"></td>
+            <td class="tamanyoColumna" id="imagenTres"></td>
+        </tr>
+        <tr valign="TOP">
+            <td class="tamanyoColumnaTitulo">
+                <h2 class="textoTituloPlanta">Cómo elegir tus plantas de interior</h2>
+            </td>
+            <td class="tamanyoColumnaTitulo">
+                <h2 class="textoTituloPlanta">Plantas que purifican el aire de tu casa</h2>
+            </td>
+            <td class="tamanyoColumnaTitulo">
+                <h2 class="textoTituloPlanta">Consejos para adentrarse al mundo de las plantas</h2>
+            </td>
+        </tr>
+        <tr valign="TOP">
+            <td class="tamanyoColumnaTexto">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </p>
+                </br>
+                <details>
+                    <summary>Leer más ...</summary>
+                    <p> It has survived not only five centuries, but also the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </details>
+            </td>
+            <td class="tamanyoColumnaTexto">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </p>
+                </br>
+                <details>
+                    <summary>Leer más ...</summary>
+                    <p> It has survived not only five centuries, but also the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </details>
+            </td>
+            <td class="tamanyoColumnaTexto">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </p>
+                </br>
+                <details>
+                    <summary>Leer más ...</summary>
+                    <p> It has survived not only five centuries, but also the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </details>
+            </td>
+        </tr>
+    </table>
 
 
-    <!--Una tabla de la página principal accesorios-->
-    <fieldset>
-        <legend>ACCESORIOS</legend>
-        <table>
-            <tr>
-                <td class="cuadradosTablasPagPrin" id="macetas">
-                    <h2>MACETAS</h2>
-                </td>
-                <td class="cuadradosTablasPagPrin" id="abonos">
-                    <h2>ABONOS</h2>
-                </td>
-            </tr>
-            <tr>
-                <td class="cuadradosTablasPagPrin" id="herramientas">
-                    <h2>HERRAMIENTAS</h2>
-                </td>
-                <td class="cuadradosTablasPagPrin" id="riego">
-                    <h2>RIEGO</h2>
-                </td>
-            </tr>
-        </table>
-    </fieldset>
+    <!--Imágen y parrafo en el centro de la página principal-->
+    <!--<p>Las plantas, por medio del proceso de la fotosíntesis, absorben el dióxido de carbono del
+        ambiente y lo transforman en oxígeno. Además, como parte de su naturaleza, nos brindan humedad
+        al ambiente. Esto es muy beneficioso para reducir los niveles de sequedad y partículas de polvo
+        en nuestro hogar. De esta manera, se puede contribuir a evitar problemas respiratorios.</p>-->
 
-    <!--Una tabla de la página principal estaciones-->
-    <fieldset>
-        <legend>ESTACIONES</legend>
-        <table>
-            <tr>
-                <td class="cuadradosTablasPagPrinDos" id="primavera">
-                    <h2>PRIMAVERA</h2>
-                </td>
-            </tr>
-            <tr>
-                <td class="cuadradosTablasPagPrinDos" id="verano">
-                    <h2>VERANO</h2>
-                </td>
-            </tr>
-            <tr>
-                <td class="cuadradosTablasPagPrinDos" id="otoño">
-                    <h2>OTOÑO</h2>
-                </td>
-            </tr>
-            <tr>
-                <td class="cuadradosTablasPagPrinDos" id="invierno">
-                    <h2>INVIERNO</h2>
-                </td>
-            </tr>
-        </table>
-    </fieldset>
-
-        <!--Una tabla de la página de plantas interior y exterior-->
-        <fieldset id="curiosidades">
-            <legend>CURIOSIDADES</legend>
-            <table>
-                <tr>
-                    <td class="cuadradosTablasPagPrin quitoBordeAbajo" id="cuantas">
-                        <h2>¿CUÁNTAS VECES DEBO REGAR MI PLANTA?</h2>
-                    </td>
-                    <td class="cuadradosTablasPagPrin quitoBordeAbajo" id="transplantar">
-                        <h2>TRANSPLANTAR</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cuadradosTablasPagPrin quitoBordeArriba comentariosPagPrincipal">
-                        <p>La frecuencia, la cantidad y la forma de riego varía según las necesidades de cada planta.</p>
-                    </td>
-                    <td class="cuadradosTablasPagPrin quitoBordeArriba comentariosPagPrincipal">
-                        <p>Hay diversos motivos por los que trasplantar una planta. Ya sea por espacio, por salud o simplemente por estética, 
-                            trasplantar nuestras plantas es algo que debemos realizar cada cierto tiempo para fortalecer y mejorar su crecimiento. 
-                            Pese a que se realice para mejorar sus condiciones, el trasplante es un proceso que resulta siempre traumático para la planta y, 
-                            por ello, siempre se debe realizar con mucho cuidado y con los conocimientos y materiales adecuados.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cuadradosTablasPagPrin quitoBordeAbajo" id="cuidados">
-                        <h2>CUIDADOS DE CACTUS</h2>
-                    </td>
-                    <td class="cuadradosTablasPagPrin quitoBordeAbajo" id="consejos">
-                        <h2>CONSEJOS PARA TU HUERTO</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cuadradosTablasPagPrin quitoBordeArriba comentariosPagPrincipal">
-                        <p>Hay que regarlos poco, ¿pero cuánto? Y si solo hay que hacer eso, ¿cómo es posible que se nos mueran? Resolvemos todas tus dudas 
-                            con estas tres reglas para cuidar tus cactus y que estén siempre preciosos.</p>
-                    </td>
-                    <td class="cuadradosTablasPagPrin quitoBordeArriba comentariosPagPrincipal">
-                        <p>Sacar el máximo provecho a nuestro jardín, huerta o huerto urbano no es tan complicado, sólo necesitas aprender o recordar ciertos 
-                            conceptos básicos.</p>
-                    </td>
-                </tr>
-            </table>
-        </fieldset>
-
-</body>
-
-<!--Añadimos el pie de página-->
-<footer id="pie">
-    <div class="content">
-        <div class="top">
-            <div></div>
-            <div id="ubicacion">
-                <P>UBICACIÓN:</P>
+    <!--Añadimos el pie de página-->
+    <footer id="pie">
+        <div class="content">
+            <div class="top">
+                <div></div>
+                <div id="ubicacion">
+                    <P>UBICACIÓN:</P>
+                </div>
+                <div id="siguenos">
+                    <P>SÍGUENOS:</P>
+                </div>
             </div>
-            <div id="siguenos">
-                <P>SÍGUENOS:</P>
+            <div class="top">
+                <div class="copy-details">
+                    <span class="copy_name">© 2022 Reservados todos los derechos</span>
+                </div>
+                <div class="ubicacionIcono">
+                    <a href="https://www.google.es/maps/place/I.E.S.+Abastos/@39.4676146,-0.3886331,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f46da4855e1:0x9c6c795bc92d164e!8m2!3d39.4676091!4d-0.388645?hl=es"
+                        target="_blank"> I.E.S. Abastos, Carrer D'Alberic, Valencia <i
+                            class="fa-sharp fa-solid fa-location-dot" id="iconoUbicacion"></i></a>
+
+                </div>
+                <div class="media-icons">
+                    <a href="" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="" title="Youtube"><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
         </div>
-        <div class="top">
-            <div class="copy-details">
-                <span class="copy_name">© 2022 Reservados todos los derechos</span>
-            </div>
-            <div class="ubicacionIcono">
-                <a href="https://www.google.es/maps/place/I.E.S.+Abastos/@39.4676146,-0.3886331,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f46da4855e1:0x9c6c795bc92d164e!8m2!3d39.4676091!4d-0.388645?hl=es"
-                    target="_blank"> I.E.S. Abastos, Carrer D'Alberic, Valencia <i
-                        class="fa-sharp fa-solid fa-location-dot" id="iconoUbicacion"></i></a>
 
-            </div>
-            <div class="media-icons">
-                <a href="" title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="" title="Youtube"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </div>
 
-    <p>carla ruiz <p>
-    <cambio></cambio>
-    <p>nuevo cambio</p>
 
-</footer>
+
+
+
+        <!-- CARLA-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
 
 </html>
