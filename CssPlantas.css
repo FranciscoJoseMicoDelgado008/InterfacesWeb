@@ -85,20 +85,6 @@ img.logo {
 
 /*fin submenu*/
 
-/*submenusub*/
-.submenusub {
-    position: absolute;
-    width: 100%;
-    display: none;
-    background-color: #558976;
-}
-
-.submenu li:hover .submenusub {
-    display: block;
-    right: -120px;
-}
-
-/*fin submenusub*/
 /*configurar menu responsive*/
 .checkbtn {
     font-size: 45px;
@@ -165,19 +151,6 @@ img.logo {
         text-align: left;
         margin-left: 40%;
     }
-
-    header nav ul li .submenu .submenusub {
-        position: relative;
-    }
-
-    .submenusub {
-        left: 0;
-    }
-
-    .submenusub li a {
-        text-align: left;
-        margin-left: 45%;
-    }
 }
 
 /*fin propiedades del nav - menú*/
@@ -191,10 +164,8 @@ img.logo {
 }
 
 .slider {
-    background-image: url(Imagenes/Slider/planta1.jpg);
+    background-image: url(Imagenes/Slider/macetas_herramientas.png);
     background-size: cover;
-
-
     height: 450px;
     width: 100%;
     animation: animate 30s infinite;
@@ -202,17 +173,17 @@ img.logo {
 
 @keyframes animate {
     20% {
-        background-image: url(Imagenes/Slider/planta2.jpg);
+        background-image: url(Imagenes/Slider/macetas.png);
         background-size: cover;
     }
 
     40% {
-        background-image: url(Imagenes/Slider/planta3.jpg);
+        background-image: url(Imagenes/Slider/panta_verde.png);
         background-size: cover;
     }
 
     60% {
-        background-image: url(Imagenes/Slider/planta4.jpg);
+        background-image: url(Imagenes/Slider/cactus.png);
         background-size: cover;
     }
 }
@@ -283,16 +254,21 @@ section.seccionFrase {
     padding: 20px;
 }
 
+.imagen {
+    background-position: center;
+    background-size: cover;
+}
+
 #imagenUno {
-    background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
+    background-image: url(Imagenes/ImagenesPrincipales/comprar-plantas-interior-consejos.jpg);
 }
 
 #imagenDos {
-    background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
+    background-image: url(Imagenes/ImagenesPrincipales/plantas-de-interior.jpg);
 }
 
 #imagenTres {
-    background-image: url(Imagenes/ImagenesPrincipales/elegir.jpg);
+    background-image: url(Imagenes/ImagenesPrincipales/consejos.jpeg);
 }
 
 .textoTituloPlanta {
@@ -335,20 +311,78 @@ p.alinear {
     opacity: .4;
 }
 
+#imagenCuatro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/PlantaElefante.jpg);
+}
+
+#imagenCinco {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/plantas-medicinales-tropicales-flores.jpg);
+}
+
+#imagenSeis {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
+}
+
 /*Fin Frase dos*/
 
+/*Tabla 2*/
+.tamanyoColumna2 {
+    height: 500px;
+}
+
+td.tamanyoColumna2 {
+    width: 30%;
+    padding: 2%;
+}
+
+table.tftable2 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #dff5ed;
+    color: #558976;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 0 3px #999;
+}
+
+button:hover {
+    color: #dff5ed;
+    background-color: #558976;
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: #dff5ed;
+    background-color: #558976;
+}
+
+/*Fin tabla 2*/
+
 /*movil*/
-@media (max-width:1600px) {    
+@media (max-width:1600px) {
     section.seccionFrase2 {
         font-size: 19px !important;
     }
-    
+
     p.alinear {
         margin-left: 15% !important;
         margin-right: 15% !important;
         line-height: 25px !important;
     }
 }
+
 @media (max-width:1000px) {
     .frase {
         font-size: 30px !important;
@@ -375,19 +409,20 @@ p.alinear {
     .quotePequenya {
         font-size: 50px !important;
     }
+
     section.seccionFrase2 {
         font-size: 16px !important;
     }
-    
+
     p.alinear {
         margin-left: 15% !important;
         margin-right: 15% !important;
         line-height: 18px !important;
     }
-    
+
     #iconoMano {
         width: 80px !important;
-        height: 80px  !important;
+        height: 80px !important;
     }
 }
 
