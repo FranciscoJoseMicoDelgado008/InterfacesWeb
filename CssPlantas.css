@@ -198,7 +198,7 @@ section.seccionFrase {
     text-align: justify;
     font-style: italic;
     color: #558976;
-    ;
+    
 }
 
 #positionFrase {
@@ -217,7 +217,7 @@ section.seccionFrase {
     font-size: 100px;
 }
 
-/*Propiedades 3 cuadrados página principal con tabla*/
+/*Propiedades 3 cuadrados página principal con tabla y listas*/
 .tftable {
     color: #111;
     width: 90%;
@@ -281,6 +281,10 @@ summary {
     font-weight: bold;
     color: #558976
 }
+
+ol {
+    list-style-type: disc;
+  }
 
 /*Fin Propiedades 3 cuadrados página principal con tabla*/
 
@@ -541,3 +545,54 @@ footer .content .top {
 }
 
 /*Fin pie*/
+
+
+
+
+
+
+
+
+
+/*Infomración*/
+
+.tituloInformacion{
+    text-align: center;
+    color: #111;
+    font-size: xxx-large;
+}
+
+#seccionInformacion{
+    position: relative;
+    top:5%;
+}
+#informacionNosotros{
+    position: relative;
+    margin:30px 15% 30px 15%;
+    text-align: justify;
+    font-size: 20px;    
+    line-height: 38px;
+}
+
+
+/*mapa*/
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 450px;
+    width: 450px;
+    left: 37%;
+    top: 20px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 450px;
+    width: 450px;
+}
+
+
+
+
+
+/*Fin información*/
