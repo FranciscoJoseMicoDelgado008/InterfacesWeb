@@ -164,7 +164,7 @@ img.logo {
 }
 
 .slider {
-    background-image: url(Imagenes/Slider/macetas_herramientas.png);
+    background-image: url(Imagenes/Slider/margarita-2.png);
     background-size: cover;
     height: 450px;
     width: 100%;
@@ -667,8 +667,12 @@ ul.breadcrumb li a:hover {
 /*Fin información*/
 
 /*Plantas de interior */
+
+#fotoPlantasInteriorCabecera {
+    background-image: url("Imagenes/ImagenesSecundarias/comedor2.jpeg");
+    
+}
 .positionImage {
-    background-image: url(Imagenes/ImagenesSecundarias/comedor2.jpeg);
     background-size: cover;
     height: 350px;
     width: 90%;
@@ -684,10 +688,92 @@ ul.breadcrumb li a:hover {
     position:relative;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 40px;
     text-align: center;
     font-style: italic;
     color: #558976;
+    
 
 }
+
+#plantaInterior1 {
+    background-image: url("Imagenes/ImagenesPrincipales/PlantaElefante.jpg");
+    
+}
+
+#plantaInterior2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/plantas-medicinales-tropicales-flores.jpg);
+}
+
+#plantaInterior3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
+}
+#plantaInterior4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/PlantaElefante.jpg);
+}
+
+#plantaInterior5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/plantas-medicinales-tropicales-flores.jpg);
+}
+
+#plantaInterior6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
+}
+
+table.tftable3{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 20px; 
+}
+
+.tamanyoFotoPlanta{
+        height: 300px;
+}
+
+td.tamanyoFotoPlanta {
+    width: 30%;
+    padding: 2%;
+}
+
+.segundaFilaPlantas{
+
+}
+.nombrePlanta{
+    font-style: italic;
+    font-size: large;
+    color: #558976;
+}
+
+.verMas{
+    font-style: italic;
+    font-size: medium;
+    color: #558976;
+    text-decoration: underline;
+
+}
+
+#fotoAnuncioMaceta {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
+}
+
+.positionAnuncio{
+    margin: 0px auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-size: cover;
+    height: 200px;
+    width: 80%;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    color: rgb(255, 255, 255);
+}
+    
+
+
 
 
