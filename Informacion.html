@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="es">
+
 <link rel="stylesheet" href="CssPlantas.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
@@ -50,25 +53,50 @@
         </ul>
     </nav>
 </header>
-
+<!--El breadcrumb, para saber donde nos encontramos en la página-->
+<ul class="breadcrumb">
+    <li><a href="WebPlantas.html">Inicio</a></li>
+    <li>Información</li>
+</ul>
+<!--aquí añadimos la sección de Información-->
 <section id="seccionInformacion">
-    <h1 class="tituloInformacion">¿Quienes somos?</h1>
-    <p id="informacionNosotros">Plantas Carfra es una empresa-web de ecología y medio ambiente especializada en
-        ofrecerte respuestas sobre dudas comunes en esta temática para que, así, descubras cómo tener un estilo de vida
-        más eco friendly y sepas cómo ayudar a mejorar el futuro del planeta.
-        En cuanto a nosotros somos más de 1000000 de socios, todo empezó con los principales socios Fran y Carla que
-        decidieron formar esta empresa pensando que no eran los únicos que tenían estos ideales.
-    </p>
+    <h1 class="tituloInformacion">¿Quiénes somos?</h1>
+    <table class="tftableInfor">
+        <tr>
+            <td rowspan="2" id="informacionNosotros">
+                <p>Plantas Carfra es una empresa web de ecología y medioambiente, especializada en
+                    ofrecerte respuestas sobre dudas comunes en esta temática. En esta web descubrirarás cómo tener un
+                    estilo de
+                    vida más eco friendly y aprenderás a mejorar el futuro del planeta.<br><br>
+                    En cuanto a nosotros, somos más de 1.000.000 de socios. Todo empezó con los principales socios Fran
+                    y Carla,
+                    los cuales decidieron formar esta empresa pensando que no eran los únicos que tenían estos ideales.
+                </p>
+            </td>
+            <td id="informacionNosotrosFoto" align="center">
+                <img class="fotoPersonal" src="Imagenes/Avatares/AvatarCarla.png">
+                <p class="datosPersonalesNombre">Carla</p><br>
+            </td>
+        </tr>
+        <tr>
+            <td id="informacionNosotrosFoto" align="center">
+                <img class="fotoPersonal" src="Imagenes/Avatares/AvatarFran.png">
+                <p class="datosPersonalesNombre">Francisco José</p><br>
+
+            </td>
+        </tr>
+    </table>
+    <!--Incorporamos un iframe de googlemap-->
     <h1 class="tituloInformacion">¿Dónde nos encontramos?</h1>
     <div class="mapouter">
-        <div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas"
+        <div class="gmap_canvas"><iframe width="450" height="450" id="gmap_canvas"
                 src="https://maps.google.com/maps?q=Ies%20abastos&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0"
                 scrolling="no" marginheight="0" marginwidth="0"></iframe></a><br>
             <a href="https://www.embedgooglemap.net"></a>
         </div>
     </div>
 </section>
-
+<!--aquí añadimos el pie-->
 <footer id="pie">
     <div class="content">
         <div class="top">
@@ -99,3 +127,5 @@
         </div>
     </div>
 </footer>
+
+</html>

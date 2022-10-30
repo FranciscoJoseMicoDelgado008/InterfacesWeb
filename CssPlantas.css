@@ -107,7 +107,7 @@ img.logo {
         margin-right: 20%;
     }
 
-    ul {
+    nav ul {
         position: fixed;
         width: 100%;
         background: #558976;
@@ -198,7 +198,7 @@ section.seccionFrase {
     text-align: justify;
     font-style: italic;
     color: #558976;
-    
+
 }
 
 #positionFrase {
@@ -284,7 +284,7 @@ summary {
 
 ol {
     list-style-type: disc;
-  }
+}
 
 /*Fin Propiedades 3 cuadrados página principal con tabla*/
 
@@ -547,43 +547,112 @@ footer .content .top {
 /*Fin pie*/
 
 
+/*Breadcrumb*/
+ul.breadcrumb {
+    position: relative;
+    padding: 10px 16px;
+    list-style: none;
+    margin-top: 50px;
+    background-color: #e6e7e1;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
+/* Mostrar elementos de la lista uno al lado del otro */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
 
+/* Agregue un símbolo de barra inclinada (/) antes/detrás de cada elemento de la lista */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #2c473d;
+    content: "/\00a0";
+}
 
+/* Agregue un color a todos los enlaces dentro de la lista */
+ul.breadcrumb li a {
+    color: #2c473d;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+/* Agregar un color al pasar el mouse */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
+/*Fin breadcrumb*/
 
 
 /*Información*/
 
-.tituloInformacion{
+/*Propiedades tabla y listas*/
+.tftableInfor {
+    color: #111;
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.tftableInfor td#informacionNosotros {
+    width: 70%;
+    font-size: 22px;
+    line-height: 40px;
+    vertical-align: top;
+}
+
+.tftableInfor tr#subirLinea {
+    margin-top: -20px;
+}
+
+/*Fotos informacion nosotros*/
+.datosPersonalesNombre {
+    font-weight: bold;    
+    text-align: center;    
+    font-size: 15px;
+}
+
+.fotoPersonal {
+    height: auto;
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+}
+
+/*Titulo informacion*/
+.tituloInformacion {
     text-align: center;
     color: #111;
     font-size: xxx-large;
 }
 
-#seccionInformacion{
+#seccionInformacion {
     position: relative;
-    top:5%;
-}
-#informacionNosotros{
-    position: relative;
-    margin:30px 15% 30px 15%;
-    text-align: justify;
-    font-size: 20px;    
-    line-height: 38px;
+    margin-top: 2%;
 }
 
 
 /*mapa*/
 .mapouter {
     position: relative;
-    text-align: right;
     height: 450px;
     width: 450px;
-    left: 37%;
-    top: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
+
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
