@@ -575,7 +575,7 @@ button:active {
     flex-shrink: 2;
 }
 
-.videoModal img {
+.videoModal video {
     width: 500px;
     height: 100%;
     max-width: 100%;
