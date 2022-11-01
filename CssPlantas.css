@@ -345,6 +345,7 @@ table.tftable2 {
     margin-right: 5%;
     border-collapse: separate;
     border-spacing: 20px;
+    margin-bottom: 200px;
 }
 
 button {
@@ -429,6 +430,179 @@ button:active {
         height: 80px !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Galeria*/
+#galeria{
+    background: #dff5ed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    color: #558976;
+}
+
+/*Galeria fotos*/
+.galeriaFotos { 
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+/*estilo modal foto*/
+.modal {
+    display: none;
+}
+
+.modal:target {
+    position: fixed;
+    display: block;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.fotoModal {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoModal a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+/*segunda etiqueta a dentro de foto modal*/
+.fotoModal a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.fotoModal img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 2px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+/*Fin propiedades galeria fotos*/
+
+
+
+
+
+
+
+
+
+
+/*Galeria fotos*/
+.galeriaVideos { 
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+/*estilo modal foto*/
+.modal {
+    display: none;
+}
+
+.videoModal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoModal a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+/*segunda etiqueta a dentro de foto modal*/
+.videoModal a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.videoModal img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.videoCerrar {
+    display: block;
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 2px;
+    border-radius: 50%;
+}
+/*Fin propiedades galeria fotos*/
+
+
+
+
+
+
 
 
 
@@ -616,16 +790,16 @@ ul.breadcrumb li a:hover {
 
 /*Fotos informacion nosotros*/
 .datosPersonalesNombre {
-    font-weight: bold;    
-    text-align: center;    
+    font-weight: bold;
+    text-align: center;
     font-size: 15px;
 }
 
 .fotoPersonal {
     height: auto;
     border-radius: 50%;
-    width:120px;
-    height:120px;
+    width: 120px;
+    height: 120px;
 }
 
 /*Titulo informacion*/
@@ -670,35 +844,37 @@ ul.breadcrumb li a:hover {
 
 #fotoPlantasInteriorCabecera {
     background-image: url("Imagenes/ImagenesSecundarias/comedor2.jpeg");
-    
+
 }
+
 .positionImage {
     background-size: cover;
     height: 350px;
     width: 90%;
-    margin:60px;
+    margin: 60px;
     text-align: center;
     padding-top: 150px;
     font-style: italic;
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: bold;
-}   
-.textPlantasInterior{
-    position:relative;
+}
+
+.textPlantasInterior {
+    position: relative;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 40px;
     text-align: center;
     font-style: italic;
     color: #558976;
-    
+
 
 }
 
 #plantaInterior1 {
     background-image: url("Imagenes/ImagenesPrincipales/PlantaElefante.jpg");
-    
+
 }
 
 #plantaInterior2 {
@@ -708,6 +884,7 @@ ul.breadcrumb li a:hover {
 #plantaInterior3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
 }
+
 #plantaInterior4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/PlantaElefante.jpg);
 }
@@ -720,16 +897,16 @@ ul.breadcrumb li a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
 }
 
-table.tftable3{
+table.tftable3 {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     border-collapse: separate;
-    border-spacing: 20px; 
+    border-spacing: 20px;
 }
 
-.tamanyoFotoPlanta{
-        height: 300px;
+.tamanyoFotoPlanta {
+    height: 300px;
 }
 
 td.tamanyoFotoPlanta {
@@ -737,16 +914,15 @@ td.tamanyoFotoPlanta {
     padding: 2%;
 }
 
-.segundaFilaPlantas{
+.segundaFilaPlantas {}
 
-}
-.nombrePlanta{
+.nombrePlanta {
     font-style: italic;
     font-size: large;
     color: #558976;
 }
 
-.verMas{
+.verMas {
     font-style: italic;
     font-size: medium;
     color: #558976;
@@ -758,7 +934,7 @@ td.tamanyoFotoPlanta {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
 }
 
-.positionAnuncio{
+.positionAnuncio {
     margin: 0px auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -772,8 +948,3 @@ td.tamanyoFotoPlanta {
     line-height: 200px;
     color: rgb(255, 255, 255);
 }
-    
-
-
-
-
