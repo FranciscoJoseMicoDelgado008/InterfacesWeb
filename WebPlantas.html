@@ -14,6 +14,10 @@
 <body>
 
     <header>
+        <!--icono acceso web-->
+        <a href="#acceso" title="Acceder" id="iconoAcceso"><i class="fa-solid fa-user"></i></a>
+
+        <!-- menú de navegación-->
         <nav class="navegacion">
 
             <!--aquí añadimos el logo-->
@@ -62,6 +66,8 @@
             </ul>
         </nav>
     </header>
+
+
     <!--aquí añadimos el slider que se alimentará con imagenes desde el CSS-->
     <section>
         <div class="slider-container">
@@ -120,8 +126,8 @@
                             necesario que las riegues, así como el fertilizante que debes usar en la época adecuada.
                             Limpia sus hojas y corta las que ya estén secas para permitir que las otras crezcan.</li>
                         <br>
-                        <p>Y si te has quedado con ganas de más, aquí tienes un pequeño video.</p>
                     </ol>
+                    <p>Y si te has quedado con ganas de más, aquí tienes un pequeño video.</p>
                     <br>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/B43MUFdCkOg"
                         title="YouTube video player" frameborder="0"
@@ -168,8 +174,8 @@
                         <li>Déjalas tranquilas, en la naturaleza. ¡En la naturaleza las plantas no reciben atención! ¡Y
                             si les gustara moverse tanto, tendrían patas!</li>
                         <br>
-                        <p>En este video te aconsejamos unas plantas con las que puedes empezar.</p>
                     </ol>
+                    <p>En este video te aconsejamos unas plantas con las que puedes empezar.</p>
                     <br>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/czqTgWo-RDc"
                         title="YouTube video player" frameborder="0"
@@ -236,9 +242,9 @@
 
     <!--Ventana modal popUp galeria imagenes-->
     <div class="modal" id="image1">
-        <h3>Alhambra de Granada</h3>
+        <h3>Alhambra, Granada</h3>
         <div class="fotoModal">
-            <a href="#image6">&#60;</a>
+            <a href="#image7">&#60;</a>
             <a href="#image2">
                 <img src="Imagenes/Jardines/generalife-alhambra-granada-a.avif">
             </a>
@@ -247,7 +253,7 @@
         <a class="cerrar" href="">X</a>
     </div>
     <div class="modal" id="image2">
-        <h3>Jardín botánico orotava Tenerife</h3>
+        <h3>Jardín botánico orotava, Tenerife</h3>
         <div class="fotoModal">
             <a href="#image1">&#60;</a>
             <a href="#image3">
@@ -258,7 +264,7 @@
         <a class="cerrar" href="">X</a>
     </div>
     <div class="modal" id="image3">
-        <h3>Palacio viana Córdoba</h3>
+        <h3>Palacio viana, Córdoba</h3>
         <div class="fotoModal">
             <a href="#image2">&#60;</a>
             <a href="#image4">
@@ -269,7 +275,7 @@
         <a class="cerrar" href="">X</a>
     </div>
     <div class="modal" id="image4">
-        <h3>Pazo de Rubianes Vilagarcia de Arousa</h3>
+        <h3>Pazo de Rubianes, Pontevedra</h3>
         <div class="fotoModal">
             <a href="#image3">&#60;</a>
             <a href="#image5">
@@ -280,7 +286,7 @@
         <a class="cerrar" href="">X</a>
     </div>
     <div class="modal" id="image5">
-        <h3>Jardín de Cáctus Lanzarote</h3>
+        <h3>Jardín de Cáctus, Lanzarote</h3>
         <div class="fotoModal">
             <a href="#image4">&#60;</a>
             <a href="#image6">
@@ -291,11 +297,22 @@
         <a class="cerrar" href="">X</a>
     </div>
     <div class="modal" id="image6">
-        <h3>Jardines parque del retiro Madrid</h3>
+        <h3>Puente de las flores, Valencia</h3>
         <div class="fotoModal">
             <a href="#image5">&#60;</a>
+            <a href="#image7">
+                <img src="Imagenes/Jardines/puente-de-las-flores.jpg">
+            </a>
+            <a href="#image7">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+    <div class="modal" id="image7">
+        <h3>Jardín del príncipe, Aranjuez</h3>
+        <div class="fotoModal">
+            <a href="#image6">&#60;</a>
             <a href="#image1">
-                <img src="Imagenes/Jardines/jardines-retiro-madrid-a.avif">
+                <img src="Imagenes/Jardines/palacio-aranjuez-a.jpg">
             </a>
             <a href="#image1">></a>
         </div>
@@ -312,7 +329,7 @@
 
     <!--Ventana modal popUp galeria imagenes-->
     <div class="modal" id="video1">
-        <h3>Alhambra de Granada</h3>
+        <h3>Alhambra, Granada</h3>
         <div class="videoModal">
             <a href="#video6">&#60;</a>
             <video src="videos/Jardines del Partal Alto.mp4" controls></video>
@@ -321,18 +338,16 @@
         <a class="videoCerrar" href="">X</a>
     </div>
     <div class="modal" id="video2">
-        <h3>Jardín botánico orotava Tenerife</h3>
+        <h3>Jardín botánico orotava, Tenerife</h3>
         <div class="videoModal">
             <a href="#video1">&#60;</a>
-            <video
-                src="videos/Jardines la Hijuela del Botánico.mp4"
-                controls></video>
+            <video src="videos/Jardines la Hijuela del Botánico.mp4" controls></video>
             <a href="#video3">></a>
         </div>
         <a class="videoCerrar" href="">X</a>
     </div>
     <div class="modal" id="video3">
-        <h3>Palacio viana Córdoba</h3>
+        <h3>Patios populares, Córdoba</h3>
         <div class="videoModal">
             <a href="#video2">&#60;</a>
             <video src="videos/Patios de Córdoba .mp4" controls></video>
@@ -341,7 +356,7 @@
         <a class="videoCerrar" href="">X</a>
     </div>
     <div class="modal" id="video4">
-        <h3>Jardín de Cáctus Lanzarote</h3>
+        <h3>Jardín de Cáctus, Lanzarote</h3>
         <div class="videoModal">
             <a href="#video3">&#60;</a>
             <video src="videos/Jardín de Cactus Lanzarote .mp4" controls></video>
@@ -350,7 +365,7 @@
         <a class="videoCerrar" href="">X</a>
     </div>
     <div class="modal" id="video5">
-        <h3>Jardines del rio turia valencia</h3>
+        <h3>Jardines del rio turia, Valencia</h3>
         <div class="videoModal">
             <a href="#video4">&#60;</a>
             <video src="videos/Jardín del Turia.mp4" controls></video>
@@ -362,8 +377,29 @@
 
 
 
+    <!--modal acceso usuario-->
+    <div class="modal" id="acceso">
+        <div id="accesoModal">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">Bienvenido</div>
+                    <form id="loginform">
+                        <input type="text" name="usuario" placeholder="Usuario" class="campoFormulario" required>
+                        <input type="password" placeholder="Contraseña" name="password" class="campoFormulario"
+                            required>
+                        <label for="recordar" class="formRecordarme"><input type="checkbox" id="recordar">Recordarme en
+                            este
+                            equipo</label>
 
-
+                        <button type="submit" title="Acceder" name="Acceder">Acceder</button>
+                    </form>
+                </div>
+                <div class="inferior">
+                    <a href="WebPlantas.html">Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
