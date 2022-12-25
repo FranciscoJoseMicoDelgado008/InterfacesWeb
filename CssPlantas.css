@@ -852,7 +852,7 @@ ul.breadcrumb li a:hover {
 }
 
 
-/*mapa*/
+/*Mapa*/
 .mapouter {
     position: relative;
     height: 450px;
@@ -877,8 +877,7 @@ ul.breadcrumb li a:hover {
 
 /*Fin información*/
 
-/*Plantas de interior */
-
+/* Plantas de interior */
 #fotoPlantasInteriorCabecera {
     background-image: url("Imagenes/ImagenesSecundarias/comedor2.jpeg");
 
@@ -886,6 +885,7 @@ ul.breadcrumb li a:hover {
 
 .positionImage {
     background-size: cover;
+    background-position: center;
     height: 350px;
     width: 90%;
     margin: 60px;
@@ -895,9 +895,11 @@ ul.breadcrumb li a:hover {
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.textPlantasInterior {
+.textoExplicativo {
     position: relative;
     margin-left: 10%;
     margin-right: 10%;
@@ -905,13 +907,10 @@ ul.breadcrumb li a:hover {
     text-align: center;
     font-style: italic;
     color: #558976;
-
-
 }
 
 #plantaInterior1 {
     background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
-
 }
 
 #plantaInterior2 {
@@ -953,10 +952,6 @@ td.tamanyoFotoPlanta {
     background-position:center;
 }
 
-.segundaFilaPlantas {}
-
-
-
 .nombrePlanta {
     font-style: italic;
     font-size: large;
@@ -968,11 +963,10 @@ td.tamanyoFotoPlanta {
     font-size: medium;
     color: #558976;
     text-decoration: underline;
-
 }
 
 #fotoAnuncioMaceta {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
+    background-image: linear-gradient(rgba(247 247 247 / 27%), rgba(111 124 114 / 17%)), url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
 }
 
 .positionAnuncio {
@@ -990,6 +984,36 @@ td.tamanyoFotoPlanta {
     color: rgb(255, 255, 255);
 }
 
+.positionAnuncio a{
+    text-decoration: none;
+}
+
+/* Plantas Exterior */
+#fotoPlantasExteriorCabecera{
+    background-image: url(Imagenes/ImagenesSecundarias/Plantas_Exterior_Cabecera_3.jpeg);
+}
+#plantaExterior1 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_1.webp);
+}
+#plantaExterior2 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_2_3.jpeg);
+}
+#plantaExterior3 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_3.jpeg);
+}
+#plantaExterior4 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_4_3.jpeg);
+}
+#plantaExterior5 {
+    background-image: url(Imagenes/ImagenesSecundarias/Plantas_Exterior_5.webp);
+}
+#plantaExterior6 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_6.jpeg);
+}
+#fotoAnuncioAbono{
+    background-image: url(Imagenes/ImagenesSecundarias/Anuncio_Abono.jpeg);
+
+}
 
 /*Propiedades modal formulario acceso*/
 #accesoModal {
@@ -1079,4 +1103,80 @@ label.formRecordarme {
 
 .inferior a:hover {
     color: #082233;
+}
+
+/* Informacion planta */
+
+/* Cabecera información de plantas */
+.cabeceraInfoPlantas{
+    height: 500px;
+    margin: 20px 0px;
+}
+
+.tamanyoFotoPlantaInfo{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-size: cover;
+    background-position:center;
+    margin: 20px 40%;
+}
+
+.cabeceraInfoPlantas>#plantaInterior1{
+    border:5px solid #558976;
+}
+
+.cabeceraInfoPlantas h1{
+    text-align: center;
+    font-style:italic;
+    font-size: 40px;
+    color: #558976;
+    ;
+}
+.cabeceraInfoPlantas p{
+    text-align: center;
+    color: #558976;
+    ;
+    font-size: 18px;
+    margin:350px 150px 0px;
+    font-style: italic;
+}
+
+/* Características planta */
+.infoPlanta{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.infoPlanta h2{
+    color:  #558976;
+
+}
+.infoPlanta hr{
+    border-color: rgb(188 220 168 / 18%);
+}
+.infoPlanta ul{
+    padding:0px 30px;
+}
+.infoPlanta li{
+    color: rgb(188 220 168 / 28%);
+    padding-bottom: 10px;
+}
+
+/* Macetas */
+#fotoMacetasCabecera{
+    background-image: url(Imagenes/ImagenesSecundarias/macetas.webp);
+}
+#macetaBarro{
+    background-image: url(Imagenes/ImagenesSecundarias/macetaBarro.webp);
+}
+#macetaPlastico{
+    background-image: url(Imagenes/ImagenesSecundarias/macetaPlastico.jpeg);
+}
+#macetaCeramica{
+    background-image: url(Imagenes/ImagenesSecundarias/macetasCeramica.webp);
+}
+.textoMaceta{
+    margin-top: 20px;
+    text-align: center;
+    color: #558976;
 }
