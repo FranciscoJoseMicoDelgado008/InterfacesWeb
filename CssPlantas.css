@@ -910,28 +910,28 @@ ul.breadcrumb li a:hover {
 }
 
 #plantaInterior1 {
-    background-image: url("Imagenes/ImagenesPrincipales/PlantaElefante.jpg");
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
 
 }
 
 #plantaInterior2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/plantas-medicinales-tropicales-flores.jpg);
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_2_2.webp);
 }
 
 #plantaInterior3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_3.jpeg);
 }
 
 #plantaInterior4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/PlantaElefante.jpg);
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_4.avif);
 }
 
 #plantaInterior5 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/plantas-medicinales-tropicales-flores.jpg);
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_5.png);
 }
 
 #plantaInterior6 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_6_2.webp);
 }
 
 table.tftable3 {
@@ -949,9 +949,13 @@ table.tftable3 {
 td.tamanyoFotoPlanta {
     width: 30%;
     padding: 2%;
+    background-size: cover;
+    background-position:center;
 }
 
 .segundaFilaPlantas {}
+
+
 
 .nombrePlanta {
     font-style: italic;
