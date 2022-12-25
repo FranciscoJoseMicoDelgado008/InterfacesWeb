@@ -953,9 +953,6 @@ td.tamanyoFotoPlanta {
     background-position:center;
 }
 
-.segundaFilaPlantas {}
-
-
 
 .nombrePlanta {
     font-style: italic;
@@ -972,7 +969,7 @@ td.tamanyoFotoPlanta {
 }
 
 #fotoAnuncioMaceta {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
+    background-image: linear-gradient(rgba(247 247 247 / 27%), rgba(111 124 114 / 17%)), url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
 }
 
 .positionAnuncio {
@@ -1079,4 +1076,59 @@ label.formRecordarme {
 
 .inferior a:hover {
     color: #082233;
+}
+
+/* Cabecera información de plantas */
+.cabeceraInfoPlantas{
+    height: 500px;
+    margin: 20px 0px;
+}
+
+.tamanyoFotoPlantaInfo{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-size: cover;
+    background-position:center;
+    margin: 20px 40%;
+
+
+}
+
+.cabeceraInfoPlantas>#plantaInterior1{
+    border:5px solid #558976;
+}
+
+.cabeceraInfoPlantas h1{
+    text-align: center;
+    font-style:italic;
+    font-size: 40px;
+    color: #558976;
+    ;
+}
+.cabeceraInfoPlantas p{
+    text-align: center;
+    color: #558976;
+    ;
+    font-size: 18px;
+    margin:350px 150px 0px;
+    font-style: italic;
+}
+.infoPlanta{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.infoPlanta h2{
+    color:  #558976;
+
+}
+.infoPlanta hr{
+    border-color: rgb(188 220 168 / 18%);
+}
+.infoPlanta ul{
+    padding:0px 30px;
+}
+.infoPlanta li{
+    color: rgb(188 220 168 / 28%);
+    padding-bottom: 10px;
 }
