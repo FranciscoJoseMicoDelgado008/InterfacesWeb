@@ -966,7 +966,7 @@ td.tamanyoFotoPlanta {
 }
 
 #fotoAnuncioMaceta {
-    background-image: linear-gradient(rgba(247 247 247 / 27%), rgba(111 124 114 / 17%)), url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
+    background-image: url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
 }
 
 .positionAnuncio {
@@ -1011,9 +1011,60 @@ td.tamanyoFotoPlanta {
     background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_6.jpeg);
 }
 #fotoAnuncioAbono{
-    background-image: url(Imagenes/ImagenesSecundarias/Anuncio_Abono.jpeg);
+    background-image: url(Imagenes/ImagenesSecundarias/Anuncio_Abono_3.jpeg);
+    background-position-y: bottom;
 
 }
+
+
+/* Cactus */
+#fotoCactusCabecera{
+    background-image: url(Imagenes/ImagenesSecundarias/Cactus_Cabecera_3.jpeg);
+}
+table.tftable4 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+.filaInfoCactus{
+    height: 250px;
+    border: 5px solid #558976;
+}
+.tamanyoFotoCactus{
+    width: 15%;
+    padding: 2%;
+    background-size: cover;
+    background-position:center;
+}
+.tamanyoTextoCactus{
+    width: 30%;
+    padding: 2%;
+}
+.tablaCactus{
+    margin-bottom:200px;
+}
+.tablaCactus hr{
+    border-color: rgb(188 220 168 / 18%);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Cactus_1{
+    background-image: url(Imagenes/ImagenesSecundarias/Cactus_1.webp);
+    background-position: top;
+}
+#Cactus_2{
+    background-image: url(Imagenes/ImagenesSecundarias/Cactus_2.jpeg);
+}
+#Cactus_3{
+    background-image: url(Imagenes/ImagenesSecundarias/Cactus_3_2.webp);
+}
+#Cactus_4{
+    background-image: url(Imagenes/ImagenesSecundarias/Cactus_4.jpeg);
+}
+
+
 
 /*Propiedades modal formulario acceso*/
 #accesoModal {
@@ -1111,6 +1162,7 @@ label.formRecordarme {
 .cabeceraInfoPlantas{
     height: 500px;
     margin: 20px 0px;
+    background-color: rgb(188 220 168 / 18%)
 }
 
 .tamanyoFotoPlantaInfo{
@@ -1131,8 +1183,9 @@ label.formRecordarme {
     font-style:italic;
     font-size: 40px;
     color: #558976;
-    ;
+    padding-top: 10px;
 }
+
 .cabeceraInfoPlantas p{
     text-align: center;
     color: #558976;
@@ -1179,4 +1232,11 @@ label.formRecordarme {
     margin-top: 20px;
     text-align: center;
     color: #558976;
+}
+
+/* Abonos */
+#fotoAbonosCabecera{
+    background-image: url(Imagenes/ImagenesSecundarias/Abono_Cabecera.jpeg);
+    background-position: center;
+
 }
