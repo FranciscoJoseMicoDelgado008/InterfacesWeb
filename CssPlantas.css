@@ -213,7 +213,6 @@ section.seccionFrase {
     text-align: justify;
     font-style: italic;
     color: #558976;
-
 }
 
 #positionFrase {
@@ -1239,4 +1238,39 @@ label.formRecordarme {
     background-image: url(Imagenes/ImagenesSecundarias/Abono_Cabecera.jpeg);
     background-position: center;
 
+}
+
+
+
+
+
+
+
+
+/* Estaciones */
+#imagenEstaciones{
+    background-image: url(Imagenes/Estaciones/cuatroEstaciones.jpg);
+    background-position: center;
+}
+#imagenPrimavera{
+    background-image: url(Imagenes/Estaciones/primavera.jpg);
+    background-position: center;
+}
+#imagenVerano{
+    background-image: url(Imagenes/Estaciones/verano.jpg);
+    background-position: center;
+}
+#imagenOtonio{
+    background-image: url(Imagenes/Estaciones/otoño.jpg);
+    background-position: center;
+}
+#imagenInvierno{
+    background-image: url(Imagenes/Estaciones/invierno.jpg);
+    background-position: center;
+}
+
+#positionFraseEstaciones {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
 }
