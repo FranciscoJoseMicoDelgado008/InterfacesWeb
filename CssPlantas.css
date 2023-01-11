@@ -1029,7 +1029,6 @@ table.tftable4 {
 }
 .filaInfoCactus{
     height: 250px;
-    border: 5px solid #558976;
 }
 .tamanyoFotoCactus{
     width: 15%;
@@ -1237,10 +1236,62 @@ label.formRecordarme {
 #fotoAbonosCabecera{
     background-image: url(Imagenes/ImagenesSecundarias/Abono_Cabecera.jpeg);
     background-position: center;
-
 }
 
+.tipoAbono{
+    text-align: justify;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    border: 2px solid #558976 ;
+    border-radius: 10px;
+    padding:20px;
+}
 
+.tituloAbono{
+    text-align: center;
+    color:#558976;
+}
+
+table.tftable5 {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.filaTipoAbono{
+    height: 150px;
+}
+.tamanyoFotoAbono{
+    width: 15%;
+    padding: 2%;
+    background-size: cover;
+    background-position:center;
+}
+.tamanyoTextoAbono{
+    width: 30%;
+    padding: 2%;
+    text-align: justify;
+}
+#Abono_Organico{
+    background-image: url(Imagenes/ImagenesSecundarias/Cactus_1.webp);
+    background-position: top;
+}
+#Abono_Quimico{
+    background-image: url(Imagenes/ImagenesSecundarias/Cactus_1.webp);
+    background-position: top;
+}
+section.fraseFinalAbonos {
+    text-align: center;
+    color: #558976;
+    height: 160px;
+    padding:20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    background-color: #dff5ed;
+    opacity: .6;
+}
+/* background-color: #e0d7c298;*/
 
 
 
