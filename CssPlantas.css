@@ -346,7 +346,7 @@ p.alinear {
     width: 100px;
     height: 100px;
     margin-top: 30px;
-    opacity: .4;
+    opacity: .2;
 }
 
 #imagenCuatro {
@@ -1283,7 +1283,7 @@ table.tftable5 {
 section.fraseFinalAbonos {
     text-align: center;
     color: #558976;
-    height: 160px;
+    height: 300px;
     padding:20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1291,9 +1291,89 @@ section.fraseFinalAbonos {
     background-color: #dff5ed;
     opacity: .6;
 }
-/* background-color: #e0d7c298;*/
+#fotoAnuncioHerramientas {
+    background-image: url(Imagenes/ImagenesSecundarias/Anuncio_Herramientas_5.webp);
+    background-position: center;
+}
 
+/* Herramientas */
+#fotoHerramientasCabecera{
+    background-image: url(Imagenes/ImagenesSecundarias/zyro-image.png);
+    background-position: center;
+}
 
+.textoExplicativo h1{
+    font-size: 35px;
+}
+
+table.tftable6 {
+    float:left;
+    width: 25%;
+    margin-left: 5%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+table.tftable7 {
+    width: 25%;
+    margin-left: 30%;
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin-bottom: 50px; 
+}
+
+.textoHerramienta{
+        font-style: italic;
+        font-size: medium;
+        color: #558976;
+}
+
+div.linea-vertical{ 
+    border-left: thin solid rgb(188 220 168 / 18%);
+    top: 57em;
+    left: 57%;
+    height: 100%;
+    position: absolute;      
+}
+/* Hacer mas pequeña la primera casilla de la segunda columna */
+
+.tamanyoFotoPlantaEscalera {
+    height: 200px;
+}
+td.tamanyoFotoPlantaEscalera {
+    width: 30%;
+    padding: 2%;
+    background-size: cover;
+    background-position:center;
+}
+
+/* Fotos herramientas*/
+#herramienta1 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+}
+#herramienta2 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+}
+#herramienta3 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+}
+#herramienta4 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+}
+#herramienta5 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+}
+#herramienta6 {
+    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+}
+
+/* Apartado curiosidades en Herramientas */
+aside{
+    float:right;
+    width:500px;
+    margin-right:5%;
+
+}
 
 
 
