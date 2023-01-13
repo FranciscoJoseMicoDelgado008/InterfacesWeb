@@ -176,13 +176,13 @@ a#iconoAcceso {
     margin-top: 240px;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 450px;
+    width: 100%;
 }
 
 .slider {
     background-image: url(Imagenes/Slider/margarita-2.png);
     background-size: cover;
-    height: 450px;
-    width: 100%;
     animation: animate 30s infinite;
 }
 
@@ -1379,10 +1379,33 @@ aside{
 
 
 /* Estaciones */
-#imagenEstaciones{
-    background-image: url(Imagenes/Estaciones/cuatroEstaciones.jpg);
-    background-position: center;
+
+/* Slider estaciones */
+.sliderEstaciones {
+    background-image: url(Imagenes/Estaciones/estaciones2.jpg);
+    background-size: cover;
+    animation: animateEstaciones 30s infinite;
 }
+
+@keyframes animateEstaciones {
+    20% {
+        background-image: url(Imagenes/Estaciones/estaciones5.jpg);
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url(Imagenes/Estaciones/estaciones1.jpg);
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url(Imagenes/Estaciones/estaciones9.jpg);
+        background-size: cover;
+    }
+}
+/* Finnslider estaciones */
+
+
 #imagenPrimavera{
     background-image: url(Imagenes/Estaciones/primavera.jpg);
     background-position: center;
