@@ -346,7 +346,7 @@ p.alinear {
     width: 100px;
     height: 100px;
     margin-top: 30px;
-    opacity: .2;
+    opacity: .1;
 }
 
 #imagenCuatro {
@@ -1243,7 +1243,7 @@ label.formRecordarme {
     width:90%;
     margin-left:5%;
     margin-right:5%;
-    border: 2px solid #558976 ;
+    border: 2px solid rgb(205, 201, 184, 0.861) ;
     border-radius: 10px;
     padding:20px;
 }
@@ -1283,7 +1283,6 @@ table.tftable5 {
 section.fraseFinalAbonos {
     text-align: center;
     color: #558976;
-    height: 300px;
     padding:20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1372,7 +1371,73 @@ aside{
     float:right;
     width:500px;
     margin-right:5%;
+    color: rgba(205, 201, 184, 0.861);
+    position: absolute;
+    top: 60em;
+    left:72em;
+}
 
+/* Quitar valores default del <a> para enlaces de curiosiddes */
+aside a{
+        font-style: italic;
+        font-size: medium;
+        color: rgb(205, 201, 184, 0.861);
+        text-decoration: none;
+    
+}
+
+/* Riego */
+#fotoRiegoCabecera{
+    background-image: url(Imagenes/ImagenesSecundarias/Riego_Cabecera.jpeg);
+    background-position: center;
+}
+
+
+table.tftable8 {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin-left: 10%;
+}
+
+.tituloRiego{
+    margin:0 10%;
+}
+.tituloRiego h1{
+    background: rgba(230, 231, 225, 0.348);
+    padding: 20px;
+    border-radius: 10px;
+    color: #558976;
+    margin: 20px 0px;
+}
+.tamanyoTextoRiego{
+    width: 30%;
+    padding: 2% 2% 2% 0;
+}
+.tamanyoFotoRiego{
+    width: 15%;
+    padding: 2%;
+    background-size: cover;
+    background-position:center;
+}
+
+.tamanyoTextoRiego p{
+   padding-left:0px;
+}
+.tiposRiego summary{
+    list-style: none;
+}
+#fotoAspersion {
+    background-image: url(Imagenes/ImagenesSecundarias/Riego_Cabecera.webp);
+    background-position: center;
+}
+.seccionFrasePosicion{
+    margin-top: 40em;
+}
+#positionFraseRiego {
+    margin-top:50px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 
