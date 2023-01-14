@@ -12,10 +12,14 @@
 </head>
 
 <header>
-    <nav class="navegacion">
 
-        <!--aquí añadimos el logo-->
-        <a href="WebPlantas.html"><img class="logo" src="Imagenes/Logo/logoblanco.png"></a>
+    <!--icono acceso web-->
+    <a href="#acceso" title="Acceder" id="iconoAcceso"><i class="fa-solid fa-user"></i></a>
+
+    <!--aquí añadimos el logo-->
+    <a href="WebPlantas.html"><img class="logo" src="Imagenes/Logo/logoblanco.png"></a>
+
+    <nav class="navegacion">
 
         <!--menú bar para movil/tablet-->
         <input type="checkbox" id="check">
@@ -42,14 +46,6 @@
             </li>
             <li><a href="Estaciones.html">Estaciones</a>  
             </li>
-            <li><a href="">Curiosidades <span class="fas fa-caret-down"></span></a>
-                <ul class="submenu">
-                    <li><a href="">Consejos a la hora de elegir tu planta</a></li>
-                    <li><a href="">Plantas para purificar el aire</a></li>
-                    <li><a href="">Consejos</a></li>
-                    <li><a href="">Lugares de interés</a></li>
-                </ul>
-            </li>
             <li><a href="Informacion.html">Información</a></li>
         </ul>
     </nav>
@@ -61,15 +57,14 @@
     <li>Estaciones</li>
 </ul>
 
-<!--Imagen cabecera de las paginas secundarias-->
-<section>
-    <div class="positionImage" id="imagenEstaciones">
-        <h1>Estaciones</h1>
-    </div>
+<!--aquí añadimos el slider que se alimentará con imagenes desde el CSS-->
+   <section>
+        <div class="sliderEstaciones position"></div>
 </section>
-<!--Texto sobre las plantas de interior-->
+
+<!--Texto sobre las estaciones-->
 <section class="seccionFrase">
-    <p id="positionFraseEstaciones" class="frase"><i class="fa-sharp fa-solid fa-quote-right quoteGrande quotePequenya"></i>
+    <p id="positionFrase" class="frase"><i class="fa-sharp fa-solid fa-quote-right quoteGrande quotePequenya"></i>
         Cada jardín es, en primer lugar, aprender sobre el clima,, la lluvia, el viento, el sol y el paso del tiempo, el ciclo de las estaciones. </p>
     <p id="autor" class="autorPequenyo">Erik Orsenna</p>
 </section>
@@ -77,41 +72,43 @@
 <section>
     <details>
         <summary>
-    <div class="positionAnuncio" id="imagenPrimavera">
+    <div class="positionImagenesEstaciones" id="imagenPrimavera">
         <h2>Primavera</h2>
     </div>
-</summary>
-    <p>Con el avance de la primavera las temperaturas comienzan a subir poco a poco, 
+        </summary>
+    <div class="posicionTextoImagenesEstaciones">
+    Con el avance de la primavera las temperaturas comienzan a subir poco a poco, 
         los días son más largos y más luminosos favoreciendo el crecimiento de nuestras plantas, 
         las cuales también empiezan a florecer en esta época del año. Aún así no todas las plantas 
         necesitan los mismos cuidados y la siembra no siempre es una tarea fácil. Así que si ya sabes 
-        cómo regar las plantas, te recomendamos una serie de plantas perfectas para esta época del año:</p>    
+        cómo regar las plantas, te recomendamos una serie de plantas perfectas para esta época del año:   
         <ol>
-            <li>JAZMÍN: Esta trepadora es perfecta si lo que quieres es darle un toque de color y vida a tu jardín, balcón o terraza.</li>
-            <li>CALÉNDULA: Muy importante regarlas 3 o 4 veces por semana y durante la mañana.</li>
-            <li>ROSA: El mejor momento para sembrarlas son los meses de más sol.</li>
-            <li>PETUNIA: Al igual que ocurre con la rosa es muy importante ubicarla en un lugar luminoso y a pleno sol.</li>
-            <li>GIRASOL: Son unas de las flores más llamativas que existen.</li>
-            <li>LAVANDA: Sus cuidados no son muy complicados.</li>
-            <li>LA VIOLETA: Es una planta medicinal y comestible</li>
-            <li>NARCISO: Es capaz de crecer sana y fuerte encasi cualquier clima.</li>
-            <li>PEONÍA: Necesita al menos 4 horas de sol al día.</li>
+            <li><b>JAZMÍN</b>: Esta trepadora es perfecta si lo que quieres es darle un toque de color y vida a tu jardín, balcón o terraza.</li>
+            <li><b>CALÉNDULA</b>: Muy importante regarlas 3 o 4 veces por semana y durante la mañana.</li>
+            <li><b>ROSA</b>: El mejor momento para sembrarlas son los meses de más sol.</li>
+            <li><b>PETUNIA</b>: Al igual que ocurre con la rosa es muy importante ubicarla en un lugar luminoso y a pleno sol.</li>
+            <li><b>GIRASOL</b>: Son unas de las flores más llamativas que existen.</li>
+            <li><b>LAVANDA</b>: Sus cuidados no son muy complicados.</li>
+            <li><b>LA VIOLETA</b>: Es una planta medicinal y comestible</li>
+            <li><b>NARCISO</b>: Es capaz de crecer sana y fuerte encasi cualquier clima.</li>
+            <li><b>PEONÍA</b>: Necesita al menos 4 horas de sol al día.</li>
             <br>
         </ol> 
+    </div>
     </details>
 </section>
 
 <section>
     <details>
         <summary>
-    <div class="positionAnuncio" id="imagenVerano">
+    <div class="positionImagenesEstaciones" id="imagenVerano">
         <h2>Verano</h2>
     </div>
 </summary>
-    <p>Hos vamos a dar una serie de consejos para esta complicada época del año para nuestras queridas amigas ya que         
+<div class="posicionTextoImagenesEstaciones">
+    Hos vamos a dar una serie de consejos para esta complicada época del año para nuestras queridas amigas ya que         
         es muy importante tener optimizadas vuestras plantas en verano para que no sufran estrés, o causen mermas al producir.
-
-        </p>    
+   
         <ol>
             <li>Debes de quitar las flores secas o pasadas al igual que las hojas amarillentas, ya que estas representan 
                 una carga importante para la planta y le restan energía. Si no se eliminan puede provocar que la planta no brote con la fuerza necesaria.</li>
@@ -130,17 +127,19 @@
             
             <br>
         </ol> 
+    </div>
     </details>
 </section>
 
 <section>
     <details>
         <summary>
-    <div class="positionAnuncio" id="imagenOtonio">
+    <div class="positionImagenesEstaciones" id="imagenOtonio">
         <h2>Otoño</h2>
     </div>
 </summary>
-    <p>En contra de lo que se suele creer, el comienzo del otoño es un momento idóneo para plantar y trasplantar algunas especies vegetales. 
+<div class="posicionTextoImagenesEstaciones">
+        En contra de lo que se suele creer, el comienzo del otoño es un momento idóneo para plantar y trasplantar algunas especies vegetales. 
         Si tenemos en mente plantar árboles o arbustos, es importante tener en cuenta que estos no sean de hoja perenne (para ellos, es mejor momento el invierno).
         <br><br>
         Además de estas plantas de mayor formato, el comienzo del otoño también es el momento ideal de comenzar a plantar aquellas plantas con flor que resistirán 
@@ -153,25 +152,26 @@
         <br><br>
         Y de la misma manera que plantamos nuevos bulbos, en otoño es momento de sacar de la tierra los bulbos de verano y ponerlos a salvo para el próximo año. 
         Lo ideal es que, una vez desenterrados, los almacenemos en un lugar seco y con poca luz a la espera de que llegue el momento de volver a plantarlos.
-    </p>  
     </details>
+</div>
 </section>
 
 <section>
     <details>
         <summary>
-    <div class="positionAnuncio" id="imagenInvierno">
+    <div class="positionImagenesEstaciones" id="imagenInvierno">
         <h2>Invierno</h2>
     </div>
 </summary>
-    <p>Durante la época de frío, también podemos llenar de color verde nuestro hogar, ya que no solo de sol y temperaturas cálidas viven nuestras plantas. 
+<div class="posicionTextoImagenesEstaciones">
+        Durante la época de frío, también podemos llenar de color verde nuestro hogar, ya que no solo de sol y temperaturas cálidas viven nuestras plantas. 
         Lo único que hay que hacer, es brindarles algunos cuidados extra para que soporten las bajas temperaturas.
         <br><br>
         Existen especies que se adaptan perfectamente a los rigores de la estación invernal, como también hay una serie de cuidados básicos que deben realizar 
         en este momento del año. Se trata de un buen periodo para renovar parte del sustrato, así como para proteger aquellas plantas que pueden sufrir más 
         con los fríos y las heladas.
         <br><br>
-        Aquí tenes los 3 consejos mas importantes que podemos daros:</p>    
+        Aquí tenes los 3 consejos mas importantes que podemos daros:  
         <ol>
             <li>Cuando lleguen los primeros fríos, será fundamental cubrir las plantas y flores más vulnerables con una tela, lona, plástico  para evitar 
                 así que se vean perjudicadas por las heladas.</li>
@@ -182,6 +182,7 @@
             <br>
         </ol> 
     </details>
+</div>
 </section>
 
 <footer id="pie">

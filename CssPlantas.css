@@ -176,13 +176,13 @@ a#iconoAcceso {
     margin-top: 240px;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 450px;
+    width: 100%;
 }
 
 .slider {
     background-image: url(Imagenes/Slider/margarita-2.png);
     background-size: cover;
-    height: 450px;
-    width: 100%;
     animation: animate 30s infinite;
 }
 
@@ -1444,10 +1444,33 @@ table.tftable8 {
 
 
 /* Estaciones */
-#imagenEstaciones{
-    background-image: url(Imagenes/Estaciones/cuatroEstaciones.jpg);
-    background-position: center;
+
+/* Slider estaciones */
+.sliderEstaciones {
+    background-image: url(Imagenes/Estaciones/estaciones1.jpg);
+    background-size: cover;
+    animation: animateEstaciones 30s infinite;
 }
+
+@keyframes animateEstaciones {
+    20% {
+        background-image: url(Imagenes/Estaciones/estaciones2.jpg);
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url(Imagenes/Estaciones/estaciones3.jpg);
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url(Imagenes/Estaciones/estaciones4.jpg);
+        background-size: cover;
+    }
+}
+/* Finnslider estaciones */
+
+
 #imagenPrimavera{
     background-image: url(Imagenes/Estaciones/primavera.jpg);
     background-position: center;
@@ -1465,8 +1488,20 @@ table.tftable8 {
     background-position: center;
 }
 
-#positionFraseEstaciones {
-    position: relative;
-    font-size: 50px;
-    font-weight: bold;
+.positionImagenesEstaciones {
+    margin: 0px auto;
+    background-size: cover;
+    width: 80%;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.posicionTextoImagenesEstaciones{
+        margin: 0px auto;
+        width: 80%;
+        text-align: justify;
+        padding: 1%;
+        background-color: #f6f1eb;
 }
