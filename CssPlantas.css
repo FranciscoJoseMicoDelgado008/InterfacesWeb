@@ -878,7 +878,7 @@ ul.breadcrumb li a:hover {
 
 /* Plantas de interior */
 #fotoPlantasInteriorCabecera {
-    background-image: url("Imagenes/ImagenesSecundarias/comedor2.jpeg");
+    background-image: url("Imagenes/PlantasInterior/comedor2.jpeg");
 
 }
 
@@ -909,27 +909,27 @@ ul.breadcrumb li a:hover {
 }
 
 #plantaInterior1 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/PlantasInterior/Planta_Interior_1_2.webp);
 }
 
 #plantaInterior2 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_2_2.webp);
+    background-image: url(Imagenes/PlantasInterior/Planta_Interior_2_2.webp);
 }
 
 #plantaInterior3 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_3.jpeg);
+    background-image: url(Imagenes/PlantasInterior/Planta_Interior_3.jpeg);
 }
 
 #plantaInterior4 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_4.avif);
+    background-image: url(Imagenes/PlantasInterior/Planta_Interior_4.avif);
 }
 
 #plantaInterior5 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_5.png);
+    background-image: url(Imagenes/PlantasInterior/Planta_Interior_5.png);
 }
 
 #plantaInterior6 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_6_2.webp);
+    background-image: url(Imagenes/PlantasInterior/Planta_Interior_6_2.webp);
 }
 
 table.tftable3 {
@@ -989,28 +989,28 @@ td.tamanyoFotoPlanta {
 
 /* Plantas Exterior */
 #fotoPlantasExteriorCabecera{
-    background-image: url(Imagenes/ImagenesSecundarias/Plantas_Exterior_Cabecera_3.jpeg);
+    background-image: url(Imagenes/PlantasExterior/Plantas_Exterior_Cabecera_3.jpeg);
 }
 #plantaExterior1 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_1.webp);
+    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_1.webp);
 }
 #plantaExterior2 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_2_3.jpeg);
+    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_2_3.jpeg);
 }
 #plantaExterior3 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_3.jpeg);
+    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_3.jpeg);
 }
 #plantaExterior4 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_4_3.jpeg);
+    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_4_3.jpeg);
 }
 #plantaExterior5 {
-    background-image: url(Imagenes/ImagenesSecundarias/Plantas_Exterior_5.webp);
+    background-image: url(Imagenes/PlantasExterior/Plantas_Exterior_5.webp);
 }
 #plantaExterior6 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Exterior_6.jpeg);
+    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_6.jpeg);
 }
 #fotoAnuncioAbono{
-    background-image: url(Imagenes/ImagenesSecundarias/Anuncio_Abono_3.jpeg);
+    background-image: url(Imagenes/Anuncios/Anuncio_Abono_3.jpeg);
     background-position-y: bottom;
 
 }
@@ -1018,7 +1018,7 @@ td.tamanyoFotoPlanta {
 
 /* Cactus */
 #fotoCactusCabecera{
-    background-image: url(Imagenes/ImagenesSecundarias/Cactus_Cabecera_3.jpeg);
+    background-image: url(Imagenes/Cactus/Cactus_Cabecera_3.jpeg);
 }
 table.tftable4 {
     width: 90%;
@@ -1049,17 +1049,17 @@ table.tftable4 {
     margin-right: 5%;
 }
 #Cactus_1{
-    background-image: url(Imagenes/ImagenesSecundarias/Cactus_1.webp);
+    background-image: url(Imagenes/Cactus/Cactus_1.webp);
     background-position: top;
 }
 #Cactus_2{
-    background-image: url(Imagenes/ImagenesSecundarias/Cactus_2.jpeg);
+    background-image: url(Imagenes/Cactus/Cactus_2.jpeg);
 }
 #Cactus_3{
-    background-image: url(Imagenes/ImagenesSecundarias/Cactus_3_2.webp);
+    background-image: url(Imagenes/Cactus/Cactus_3_2.webp);
 }
 #Cactus_4{
-    background-image: url(Imagenes/ImagenesSecundarias/Cactus_4.jpeg);
+    background-image: url(Imagenes/Cactus/Cactus_4.jpeg);
 }
 
 
@@ -1154,11 +1154,11 @@ label.formRecordarme {
     color: #082233;
 }
 
-/* Informacion planta */
+/* PLANTAS INTERIOR Y EXTERIOR */
 
 /* Cabecera información de plantas */
 .cabeceraInfoPlantas{
-    height: 500px;
+    padding-bottom: 20px;
     margin: 20px 0px;
     background-color: rgb(188 220 168 / 18%)
 }
@@ -1166,11 +1166,9 @@ label.formRecordarme {
 .tamanyoFotoPlantaInfo{
     height: 300px;
     width: 300px;
-    position: absolute;
     background-size: cover;
     background-position:center;
-    margin: 20px 40%;
-}
+    margin: 30px 0 10px 0;}
 
 .cabeceraInfoPlantas>#plantaInterior1{
     border:5px solid #558976;
@@ -1187,10 +1185,17 @@ label.formRecordarme {
 .cabeceraInfoPlantas p{
     text-align: center;
     color: #558976;
-    ;
     font-size: 18px;
-    margin:350px 150px 0px;
+    margin:10px 150px 0px;
     font-style: italic;
+}
+
+.positionFotoInfo{
+    text-align: -webkit-center;
+}
+
+.apartadoInfoPlanta{
+    margin-bottom: 30px;
 }
 
 /* Características planta */
@@ -1198,43 +1203,56 @@ label.formRecordarme {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .infoPlanta h2{
     color:  #558976;
 
 }
+
 .infoPlanta hr{
     border-color: rgb(188 220 168 / 18%);
 }
+
 .infoPlanta ul{
     padding:0px 30px;
 }
+
 .infoPlanta li{
-    color: rgb(188 220 168 / 28%);
+    color: rgba(133, 137, 133, 0.92);
     padding-bottom: 10px;
 }
+/* FIN PLANTAS INTERIOR Y EXTERIOR*/
 
-/* Macetas */
+
+/* MACETAS */
 #fotoMacetasCabecera{
-    background-image: url(Imagenes/ImagenesSecundarias/macetas.webp);
+    background-image: url(Imagenes/Macetas/macetas.webp);
 }
+
 #macetaBarro{
-    background-image: url(Imagenes/ImagenesSecundarias/macetaBarro.webp);
+    background-image: url(Imagenes/Macetas/macetaBarro.webp);
 }
+
 #macetaPlastico{
-    background-image: url(Imagenes/ImagenesSecundarias/macetaPlastico.jpeg);
+    background-image: url(Imagenes/Macetas/macetaPlastico.jpeg);
 }
+
 #macetaCeramica{
-    background-image: url(Imagenes/ImagenesSecundarias/macetasCeramica.webp);
+    background-image: url(Imagenes/Macetas/macetasCeramica.webp);
 }
+
 .textoMaceta{
     margin-top: 20px;
     text-align: center;
     color: #558976;
 }
+/* FIN MACETAS */
 
-/* Abonos */
+
+
+/* ABONOS */
 #fotoAbonosCabecera{
-    background-image: url(Imagenes/ImagenesSecundarias/Abono_Cabecera.jpeg);
+    background-image: url(Imagenes/Abonos/Abono_Cabecera.jpeg);
     background-position: center;
 }
 
@@ -1273,12 +1291,12 @@ table.tftable5 {
     text-align: justify;
 }
 #Abono_Organico{
-    background-image: url(Imagenes/ImagenesSecundarias/Cactus_1.webp);
+    background-image: url(Imagenes/Abonos/Abono_Organico.png);
     background-position: top;
 }
 #Abono_Quimico{
-    background-image: url(Imagenes/ImagenesSecundarias/Cactus_1.webp);
-    background-position: top;
+    background-image: url(Imagenes/Abonos/Abono_Quimico.png);
+    background-position: bottom;
 }
 section.fraseFinalAbonos {
     text-align: center;
@@ -1291,13 +1309,20 @@ section.fraseFinalAbonos {
     opacity: .6;
 }
 #fotoAnuncioHerramientas {
-    background-image: url(Imagenes/ImagenesSecundarias/Anuncio_Herramientas_5.webp);
+    background-image: url(Imagenes/Anuncios/Anuncio_Herramientas_5.webp);
     background-position: center;
 }
+.tamanyoTextoAbono li{
+    text-indent: 3px;
+    margin-left: 30px;
+}
+/* FIN ABONOS*/
 
-/* Herramientas */
+
+
+/* HERRAMIENTAS*/
 #fotoHerramientasCabecera{
-    background-image: url(Imagenes/ImagenesSecundarias/zyro-image.png);
+    background-image: url(Imagenes/Herramientas/zyro-image.png);
     background-position: center;
 }
 
@@ -1339,6 +1364,7 @@ div.linea-vertical{
 .tamanyoFotoPlantaEscalera {
     height: 200px;
 }
+
 td.tamanyoFotoPlantaEscalera {
     width: 30%;
     padding: 2%;
@@ -1348,22 +1374,30 @@ td.tamanyoFotoPlantaEscalera {
 
 /* Fotos herramientas*/
 #herramienta1 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/Herramientas/Guantes.webp);
 }
+
 #herramienta2 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/Herramientas/Rastrillo.jpeg);
+    background-position: bottom;
+
 }
+
 #herramienta3 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/Herramientas/Tijera.jpeg);
 }
+
 #herramienta4 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/Herramientas/Azada_Horquilla.jpeg);
 }
+
 #herramienta5 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/Herramientas/Regadera.jpeg);
+
 }
+
 #herramienta6 {
-    background-image: url(Imagenes/ImagenesSecundarias/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/Herramientas/Pala.jpeg);
 }
 
 /* Apartado curiosidades en Herramientas */
@@ -1383,15 +1417,36 @@ aside a{
         font-size: medium;
         color: rgb(205, 201, 184, 0.861);
         text-decoration: none;
-    
 }
 
-/* Riego */
+section.seccionFraseHerramientas {
+    height: 300px;
+    text-align: justify;
+    font-style: italic;
+    color: #558976;
+}
+
+/* Poner borde a las fotos de las herramientas*/
+td.border{
+    border:3px solid rgba(205, 201, 184, 0.241);
+}
+
+#fotoAnuncioPlantasInterior{
+    background-image: url(Imagenes/Anuncios/Anuncio_Plantas_Interior.webp);
+    background-position: center;
+
+}
+
+/* FIN HERRAMIENTAS */
+
+
+
+
+/* RIEGO */
 #fotoRiegoCabecera{
-    background-image: url(Imagenes/ImagenesSecundarias/Riego_Cabecera.jpeg);
+    background-image: url(Imagenes/Riego/Riego_Cabecera.jpeg);
     background-position: center;
 }
-
 
 table.tftable8 {
     width: 80%;
@@ -1403,6 +1458,7 @@ table.tftable8 {
 .tituloRiego{
     margin:0 10%;
 }
+
 .tituloRiego h1{
     background: rgba(230, 231, 225, 0.348);
     padding: 20px;
@@ -1410,10 +1466,12 @@ table.tftable8 {
     color: #558976;
     margin: 20px 0px;
 }
+
 .tamanyoTextoRiego{
     width: 30%;
     padding: 2% 2% 2% 0;
 }
+
 .tamanyoFotoRiego{
     width: 15%;
     padding: 2%;
@@ -1424,47 +1482,76 @@ table.tftable8 {
 .tamanyoTextoRiego p{
    padding-left:0px;
 }
+
+/* Quitar flecha de summary */
 .tiposRiego summary{
     list-style: none;
 }
-#fotoAspersion {
-    background-image: url(Imagenes/ImagenesSecundarias/Riego_Cabecera.webp);
+
+/* Fotos */
+#aspersion {
+    background-image: url(Imagenes/Riego/Aspersion.jpeg);
+    background-position: top;
+}
+
+#goteo{
+    background-image: url(Imagenes/Riego/Goteo_2.jpeg);
     background-position: center;
 }
+
+#subterraneo{
+    background-image: url(Imagenes/Riego/Subterraneo_2.jpeg);
+    background-position: center;
+}
+
+#aMano{
+    background-image: url(Imagenes/Riego/Regadera.jpeg);
+    background-position: center;
+}
+
 .seccionFrasePosicion{
     margin-top: 40em;
 }
+
 #positionFraseRiego {
-    margin-top:50px;
+    margin-top:3em;
     font-size: 50px;
     font-weight: bold;
 }
 
+.tamanyoTextoRiego li{
+    text-indent: 3px;
+    margin-left: 30px;
+}
+
+.tamanyoTextoRiego td{
+    width: 30%;
+}
+/* FIN RIEGO */
 
 
-
-/* Estaciones */
+/* ESTACIONES */
 
 /* Slider estaciones */
 .sliderEstaciones {
-    background-image: url(Imagenes/Estaciones/estaciones1.jpg);
+    background-image: url(Imagenes/Estaciones/Verano.png);
     background-size: cover;
     animation: animateEstaciones 30s infinite;
 }
 
 @keyframes animateEstaciones {
     20% {
-        background-image: url(Imagenes/Estaciones/estaciones2.jpg);
+        background-image: url(Imagenes/Estaciones/Invierno_2.jpg);
         background-size: cover;
     }
 
     40% {
-        background-image: url(Imagenes/Estaciones/estaciones3.jpg);
+        background-image: url(Imagenes/Estaciones/Otoño_2.jpg);
         background-size: cover;
     }
 
     60% {
-        background-image: url(Imagenes/Estaciones/estaciones4.jpg);
+        background-image: url(Imagenes/Estaciones/Primavera_2.png);
         background-size: cover;
     }
 }
