@@ -1505,3 +1505,8 @@ table.tftable8 {
         padding: 1%;
         background-color: #f6f1eb;
 }
+
+.detalleEstacion {
+    list-style: none;
+    margin-top: 1%;
+}
