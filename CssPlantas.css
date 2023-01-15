@@ -1158,7 +1158,7 @@ label.formRecordarme {
 
 /* Cabecera información de plantas */
 .cabeceraInfoPlantas{
-    height: 500px;
+    padding-bottom: 20px;
     margin: 20px 0px;
     background-color: rgb(188 220 168 / 18%)
 }
@@ -1166,11 +1166,9 @@ label.formRecordarme {
 .tamanyoFotoPlantaInfo{
     height: 300px;
     width: 300px;
-    position: absolute;
     background-size: cover;
     background-position:center;
-    margin: 20px 40%;
-}
+    margin: 30px 0 10px 0;}
 
 .cabeceraInfoPlantas>#plantaInterior1{
     border:5px solid #558976;
@@ -1188,8 +1186,16 @@ label.formRecordarme {
     text-align: center;
     color: #558976;
     font-size: 18px;
-    margin:350px 150px 0px;
+    margin:10px 150px 0px;
     font-style: italic;
+}
+
+.positionFotoInfo{
+    text-align: -webkit-center;
+}
+
+.apartadoInfoPlanta{
+    margin-bottom: 30px;
 }
 
 /* Características planta */
@@ -1212,7 +1218,7 @@ label.formRecordarme {
 }
 
 .infoPlanta li{
-    color: rgb(188 220 168 / 28%);
+    color: rgba(133, 137, 133, 0.92);
     padding-bottom: 10px;
 }
 /* FIN PLANTAS INTERIOR Y EXTERIOR*/
@@ -1423,6 +1429,12 @@ section.seccionFraseHerramientas {
 /* Poner borde a las fotos de las herramientas*/
 td.border{
     border:3px solid rgba(205, 201, 184, 0.241);
+}
+
+#fotoAnuncioPlantasInterior{
+    background-image: url(Imagenes/Anuncios/Anuncio_Plantas_Interior.webp);
+    background-position: center;
+
 }
 
 /* FIN HERRAMIENTAS */
