@@ -194,7 +194,7 @@ a#iconoAcceso {
 
     40% {
         background-image: url(Imagenes/Slider/panta_verde.png);
-        background-size: cover;
+        background-size: cover; 
     }
 
     60% {
@@ -1330,20 +1330,23 @@ section.fraseFinalAbonos {
     font-size: 35px;
 }
 
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    justify-content: space-around;
+}
+
 table.tftable6 {
-    float:left;
+    border-spacing: 0 20px;
     width: 25%;
-    margin-left: 5%;
     border-collapse: separate;
-    border-spacing: 20px;
 }
 
 table.tftable7 {
+    border-spacing: 0 20px;
     width: 25%;
-    margin-left: 30%;
     border-collapse: separate;
-    border-spacing: 20px;
-    margin-bottom: 50px; 
 }
 
 .textoHerramienta{
@@ -1354,11 +1357,9 @@ table.tftable7 {
 
 div.linea-vertical{ 
     border-left: thin solid rgb(188 220 168 / 18%);
-    top: 57em;
-    left: 57%;
-    height: 100%;
-    position: absolute;      
+    height: 77em;
 }
+
 /* Hacer mas pequeña la primera casilla de la segunda columna */
 
 .tamanyoFotoPlantaEscalera {
@@ -1402,13 +1403,9 @@ td.tamanyoFotoPlantaEscalera {
 
 /* Apartado curiosidades en Herramientas */
 aside{
-    float:right;
-    width:500px;
-    margin-right:5%;
+    width: 400px;
     color: rgba(205, 201, 184, 0.861);
-    position: absolute;
-    top: 60em;
-    left:72em;
+    margin-top:20px;
 }
 
 /* Quitar valores default del <a> para enlaces de curiosiddes */
@@ -1527,6 +1524,22 @@ table.tftable8 {
 .tamanyoTextoRiego td{
     width: 30%;
 }
+
+.arrow {
+    border: solid #558976;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    justify-content: space-around;
+    float: right;
+    margin-top:10px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+  
 /* FIN RIEGO */
 
 
