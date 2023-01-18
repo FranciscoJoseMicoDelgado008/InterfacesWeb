@@ -878,8 +878,8 @@ ul.breadcrumb li a:hover {
 
 /* Plantas de interior */
 #fotoPlantasInteriorCabecera {
-    background-image: url("Imagenes/PlantasInterior/comedor2.jpeg");
-
+    background-image: url(Imagenes/PlantasInterior/Cabera_Plantas_Interior_2.png);
+    background-position: center;
 }
 
 .positionImage {
@@ -1356,7 +1356,7 @@ table.tftable7 {
 }
 
 div.linea-vertical{ 
-    border-left: thin solid rgb(188 220 168 / 18%);
+    border-left: thin solid rgba(205, 201, 184, 0.633);
     height: 77em;
 }
 
@@ -1408,12 +1408,28 @@ aside{
     margin-top:20px;
 }
 
-/* Quitar valores default del <a> para enlaces de curiosiddes */
-aside a{
-        font-style: italic;
-        font-size: medium;
-        color: rgb(205, 201, 184, 0.861);
-        text-decoration: none;
+
+aside h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+aside iframe{
+    margin:auto;
+}
+
+aside ol{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+aside li{
+    margin-bottom: 10px;
+    background: rgba(214, 212, 201, 0.115);
+    border-radius: 3px;
+    margin-right: 15px;
+    text-align: center;
+    color: #558976;;
 }
 
 section.seccionFraseHerramientas {
