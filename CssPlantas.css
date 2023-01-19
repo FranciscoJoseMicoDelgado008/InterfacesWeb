@@ -181,24 +181,24 @@ a#iconoAcceso {
 }
 
 .slider {
-    background-image: url(Imagenes/Slider/margarita-2.png);
+    background-image: url(Imagenes/Principal/Slider/margarita-2.png);
     background-size: cover;
     animation: animate 30s infinite;
 }
 
 @keyframes animate {
     20% {
-        background-image: url(Imagenes/Slider/macetas.png);
+        background-image: url(Imagenes/Principal/Slider/macetas.png);
         background-size: cover;
     }
 
     40% {
-        background-image: url(Imagenes/Slider/panta_verde.png);
+        background-image: url(Imagenes/Principal/Slider/panta_verde.png);
         background-size: cover; 
     }
 
     60% {
-        background-image: url(Imagenes/Slider/cactus.png);
+        background-image: url(Imagenes/Principal/Slider/cactus.png);
         background-size: cover;
     }
 }
@@ -274,15 +274,15 @@ section.seccionFrase {
 }
 
 #imagenUno {
-    background-image: url(Imagenes/ImagenesPrincipales/comprar-plantas-interior-consejos.jpg);
+    background-image: url(Imagenes/Principal/comprar-plantas-interior-consejos.jpg);
 }
 
 #imagenDos {
-    background-image: url(Imagenes/ImagenesPrincipales/plantas-de-interior.jpg);
+    background-image: url(Imagenes/Principal/plantas-de-interior.jpg);
 }
 
 #imagenTres {
-    background-image: url(Imagenes/ImagenesPrincipales/consejos.jpeg);
+    background-image: url(Imagenes/Principal/consejos.jpeg);
 }
 
 .textoTituloPlanta {
@@ -350,15 +350,15 @@ p.alinear {
 }
 
 #imagenCuatro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/PlantaElefante.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/Principal/PlantaElefante.jpg);
 }
 
 #imagenCinco {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/plantas-medicinales-tropicales-flores.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/Principal/plantas-medicinales-tropicales-flores.jpg);
 }
 
 #imagenSeis {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/ImagenesPrincipales/cactus-crasas-y-suculentas-en-tenerife.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagenes/Principal/cactus-crasas-y-suculentas-en-tenerife.jpg);
 }
 
 /*Fin Frase dos*/
@@ -878,7 +878,7 @@ ul.breadcrumb li a:hover {
 
 /* Plantas de interior */
 #fotoPlantasInteriorCabecera {
-    background-image: url(Imagenes/PlantasInterior/Cabera_Plantas_Interior_2.png);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/Cabera_Plantas_Interior_2.png);
     background-position: center;
 }
 
@@ -909,27 +909,27 @@ ul.breadcrumb li a:hover {
 }
 
 #plantaInterior1 {
-    background-image: url(Imagenes/PlantasInterior/Planta_Interior_1_2.webp);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/Planta_Interior_1_2.webp);
 }
 
 #plantaInterior2 {
-    background-image: url(Imagenes/PlantasInterior/Planta_Interior_2_2.webp);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/Planta_Interior_2_2.webp);
 }
 
 #plantaInterior3 {
-    background-image: url(Imagenes/PlantasInterior/Planta_Interior_3.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/Planta_Interior_3.jpeg);
 }
 
 #plantaInterior4 {
-    background-image: url(Imagenes/PlantasInterior/Planta_Interior_4.avif);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/Planta_Interior_4.avif);
 }
 
 #plantaInterior5 {
-    background-image: url(Imagenes/PlantasInterior/Planta_Interior_5.png);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/Planta_Interior_5.png);
 }
 
 #plantaInterior6 {
-    background-image: url(Imagenes/PlantasInterior/Planta_Interior_6_2.webp);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/Planta_Interior_6_2.webp);
 }
 
 table.tftable3 {
@@ -965,7 +965,7 @@ td.tamanyoFotoPlanta {
 }
 
 #fotoAnuncioMaceta {
-    background-image: url(Imagenes/Anuncios/macetas_anuncio\ \(1\).png);
+    background-image: url(Imagenes/Secundarias/Plantas/Interior/macetas4.png);
 }
 
 .positionAnuncio {
@@ -989,28 +989,28 @@ td.tamanyoFotoPlanta {
 
 /* Plantas Exterior */
 #fotoPlantasExteriorCabecera{
-    background-image: url(Imagenes/PlantasExterior/Plantas_Exterior_Cabecera_3.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Plantas_Exterior_Cabecera_3.jpeg);
 }
 #plantaExterior1 {
-    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_1.webp);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Planta_Exterior_1.webp);
 }
 #plantaExterior2 {
-    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_2_3.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Planta_Exterior_2_3.jpeg);
 }
 #plantaExterior3 {
-    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_3.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Planta_Exterior_3.jpeg);
 }
 #plantaExterior4 {
-    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_4_3.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Planta_Exterior_4_3.jpeg);
 }
 #plantaExterior5 {
-    background-image: url(Imagenes/PlantasExterior/Plantas_Exterior_5.webp);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Plantas_Exterior_5.webp);
 }
 #plantaExterior6 {
-    background-image: url(Imagenes/PlantasExterior/Planta_Exterior_6.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Planta_Exterior_6.jpeg);
 }
 #fotoAnuncioAbono{
-    background-image: url(Imagenes/Anuncios/Anuncio_Abono_3.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Exterior/Anuncio_Abono_3.jpeg);
     background-position-y: bottom;
 
 }
@@ -1018,7 +1018,7 @@ td.tamanyoFotoPlanta {
 
 /* Cactus */
 #fotoCactusCabecera{
-    background-image: url(Imagenes/Cactus/Cactus_Cabecera_3.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Cactus/Cactus_Cabecera_3.jpeg);
 }
 table.tftable4 {
     width: 90%;
@@ -1049,17 +1049,17 @@ table.tftable4 {
     margin-right: 5%;
 }
 #Cactus_1{
-    background-image: url(Imagenes/Cactus/Cactus_1.webp);
+    background-image: url(Imagenes/Secundarias/Plantas/Cactus/Cactus_1.webp);
     background-position: top;
 }
 #Cactus_2{
-    background-image: url(Imagenes/Cactus/Cactus_2.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Cactus/Cactus_2.jpeg);
 }
 #Cactus_3{
-    background-image: url(Imagenes/Cactus/Cactus_3_2.webp);
+    background-image: url(Imagenes/Secundarias/Plantas/Cactus/Cactus_3_2.webp);
 }
 #Cactus_4{
-    background-image: url(Imagenes/Cactus/Cactus_4.jpeg);
+    background-image: url(Imagenes/Secundarias/Plantas/Cactus/Cactus_4.jpeg);
 }
 
 
@@ -1226,19 +1226,19 @@ label.formRecordarme {
 
 /* MACETAS */
 #fotoMacetasCabecera{
-    background-image: url(Imagenes/Macetas/macetas.webp);
+    background-image: url(Imagenes/Secundarias/Accesorios/Macetas/macetas.webp);
 }
 
 #macetaBarro{
-    background-image: url(Imagenes/Macetas/macetaBarro.webp);
+    background-image: url(Imagenes/Secundarias/Accesorios/Macetas/macetaBarro.webp);
 }
 
 #macetaPlastico{
-    background-image: url(Imagenes/Macetas/macetaPlastico.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Macetas/macetaPlastico.jpeg);
 }
 
 #macetaCeramica{
-    background-image: url(Imagenes/Macetas/macetasCeramica.webp);
+    background-image: url(Imagenes/Secundarias/Accesorios/Macetas/macetasCeramica.webp);
 }
 
 .textoMaceta{
@@ -1252,7 +1252,7 @@ label.formRecordarme {
 
 /* ABONOS */
 #fotoAbonosCabecera{
-    background-image: url(Imagenes/Abonos/Abono_Cabecera.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Abonos/Abono_Cabecera.jpeg);
     background-position: center;
 }
 
@@ -1291,11 +1291,11 @@ table.tftable5 {
     text-align: justify;
 }
 #Abono_Organico{
-    background-image: url(Imagenes/Abonos/Abono_Organico.png);
+    background-image: url(Imagenes/Secundarias/Accesorios/Abonos/Abono_Organico.png);
     background-position: top;
 }
 #Abono_Quimico{
-    background-image: url(Imagenes/Abonos/Abono_Quimico.png);
+    background-image: url(Imagenes/Secundarias/Accesorios/Abonos/Abono_Quimico.png);
     background-position: bottom;
 }
 section.fraseFinalAbonos {
@@ -1309,7 +1309,7 @@ section.fraseFinalAbonos {
     opacity: .6;
 }
 #fotoAnuncioHerramientas {
-    background-image: url(Imagenes/Anuncios/Anuncio_Herramientas_5.webp);
+    background-image: url(Imagenes/Secundarias/Accesorios/Abonos/Anuncio_Herramientas_5.webp);
     background-position: center;
 }
 .tamanyoTextoAbono li{
@@ -1322,7 +1322,7 @@ section.fraseFinalAbonos {
 
 /* HERRAMIENTAS*/
 #fotoHerramientasCabecera{
-    background-image: url(Imagenes/Herramientas/zyro-image.png);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/zyro-image.png);
     background-position: center;
 }
 
@@ -1375,30 +1375,30 @@ td.tamanyoFotoPlantaEscalera {
 
 /* Fotos herramientas*/
 #herramienta1 {
-    background-image: url(Imagenes/Herramientas/Guantes.webp);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/Guantes.webp);
 }
 
 #herramienta2 {
-    background-image: url(Imagenes/Herramientas/Rastrillo.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/Rastrillo.jpeg);
     background-position: bottom;
 
 }
 
 #herramienta3 {
-    background-image: url(Imagenes/Herramientas/Tijera.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/Tijera.jpeg);
 }
 
 #herramienta4 {
-    background-image: url(Imagenes/Herramientas/Azada_Horquilla.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/Azada_Horquilla.jpeg);
 }
 
 #herramienta5 {
-    background-image: url(Imagenes/Herramientas/Regadera.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/Regadera.jpeg);
 
 }
 
 #herramienta6 {
-    background-image: url(Imagenes/Herramientas/Pala.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/Pala.jpeg);
 }
 
 /* Apartado curiosidades en Herramientas */
@@ -1445,7 +1445,7 @@ td.border{
 }
 
 #fotoAnuncioPlantasInterior{
-    background-image: url(Imagenes/Anuncios/Anuncio_Plantas_Interior.webp);
+    background-image: url(Imagenes/Secundarias/Accesorios/Herramientas/Anuncio_Plantas_Interior.webp);
     background-position: center;
 
 }
@@ -1457,7 +1457,7 @@ td.border{
 
 /* RIEGO */
 #fotoRiegoCabecera{
-    background-image: url(Imagenes/Riego/Riego_Cabecera.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Riego/Riego_Cabecera.jpeg);
     background-position: center;
 }
 
@@ -1503,22 +1503,22 @@ table.tftable8 {
 
 /* Fotos */
 #aspersion {
-    background-image: url(Imagenes/Riego/Aspersion.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Riego/Aspersion.jpeg);
     background-position: top;
 }
 
 #goteo{
-    background-image: url(Imagenes/Riego/Goteo_2.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Riego/Goteo_2.jpeg);
     background-position: center;
 }
 
 #subterraneo{
-    background-image: url(Imagenes/Riego/Subterraneo_2.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Riego/Subterraneo_2.jpeg);
     background-position: center;
 }
 
 #aMano{
-    background-image: url(Imagenes/Riego/Regadera.jpeg);
+    background-image: url(Imagenes/Secundarias/Accesorios/Riego/Regadera.jpeg);
     background-position: center;
 }
 
@@ -1563,24 +1563,24 @@ table.tftable8 {
 
 /* Slider estaciones */
 .sliderEstaciones {
-    background-image: url(Imagenes/Estaciones/Verano.png);
+    background-image: url(Imagenes/Secundarias/Estaciones/Verano_2.png);
     background-size: cover;
     animation: animateEstaciones 30s infinite;
 }
 
 @keyframes animateEstaciones {
     20% {
-        background-image: url(Imagenes/Estaciones/Invierno_2.jpg);
+        background-image: url(Imagenes/Secundarias/Estaciones/Invierno_2.jpg);
         background-size: cover;
     }
 
     40% {
-        background-image: url(Imagenes/Estaciones/Otoño_2.jpg);
+        background-image: url(Imagenes/Secundarias/Estaciones/Otoño_2.jpg);
         background-size: cover;
     }
 
     60% {
-        background-image: url(Imagenes/Estaciones/Primavera_2.png);
+        background-image: url(Imagenes/Secundarias/Estaciones/Primavera_2.png);
         background-size: cover;
     }
 }
@@ -1588,19 +1588,19 @@ table.tftable8 {
 
 
 #imagenPrimavera{
-    background-image: url(Imagenes/Estaciones/primavera.jpg);
+    background-image: url(Imagenes/Secundarias/Estaciones/primavera.jpg);
     background-position: center;
 }
 #imagenVerano{
-    background-image: url(Imagenes/Estaciones/verano.jpg);
+    background-image: url(Imagenes/Secundarias/Estaciones/verano.jpg);
     background-position: center;
 }
 #imagenOtonio{
-    background-image: url(Imagenes/Estaciones/otoño.jpg);
+    background-image: url(Imagenes/Secundarias/Estaciones/otoño.jpg);
     background-position: center;
 }
 #imagenInvierno{
-    background-image: url(Imagenes/Estaciones/invierno.jpg);
+    background-image: url(Imagenes/Secundarias/Estaciones/invierno.jpg);
     background-position: center;
 }
 
