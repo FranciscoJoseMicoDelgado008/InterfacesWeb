@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cintas</title>
+    <link rel="stylesheet" href="../../../CSS/CssPlantas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<header>
+    <!--icono acceso web-->
+    <a href="#acceso" title="Acceder" id="iconoAcceso"><i class="fa-solid fa-user"></i></a>
+
+    <!-- menú de navegación-->
+    <nav class="navegacion">
+
+        <!--aquí añadimos el logo-->
+        <a href="../../../HTML/Principal/WebPlantas.html"><img class="logo" src="../../../Imagenes/Principal/Logos/logoblanco.png"></a>
+
+        <!--menú bar para movil/tablet-->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <!--aquí añadimos el menú-->
+        <ul class="menu">
+            <li><a href="">Plantas <span class="fas fa-caret-down"></span></a>
+                <ul class="submenu">
+                    <li><a href="../../Plantas/Interior/PlantasInterior.html">Interior </a></li>
+                    <li><a href="../../Plantas/Exterior/PlantasExterior.html">Exterior </a></li>
+                    <li><a href="../../Plantas/Cactus/Cactus.html">Cáctus </a></li>
+                </ul>
+            </li>
+            <li><a href="">Accesorios <span class="fas fa-caret-down"></span></a>
+                <ul class="submenu">
+                    <li><a href="../../Accesorios/Macetas.html">Macetas</a></li>
+                    <li><a href="../../Accesorios/Abonos.html">Abonos</a></li>
+                    <li><a href="../../Accesorios/Herramientas.html">Herramientas</a></li>
+                    <li><a href="../../Accesorios/Riego.html">Riego</a></li>
+                </ul>
+            </li>
+            <li><a href="../../Estaciones/estaciones.html">Estaciones</a>  
+            </li>
+            <li><a href="../../Informacion/Informacion.html">Información</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--El breadcrumb, para saber donde nos encontramos en la página-->
+<ul class="breadcrumb">
+    <li><a href="../../Principal/WebPlantas.html">Inicio</a></li>
+    <li><a href="PlantasExterior.html">Plantas Exterior</a></li>
+    <li>Cintas</li>
+</ul>
+<section>
+    <div class="cabeceraInfoPlantas">
+        <h1>Cintas</h1>
+        <div class="positionFotoInfo">
+            <div class="tamanyoFotoPlantaInfo" id="plantaExterior5"></div><br>
+        </div>
+        <p>Las cintas o malamadre son unas pequeñas plantas de porte colgante muy luminosas y fáciles de cuidar. Es muy utilizada como planta de interior, debido a su fácil cultivo en maceta, pero también puede ubicarse en el exterior en climas cálidos. Es muy resistente, soporta hasta -2 °C</p>  
+    </div>
+</section>
+<section>
+    <div class="infoPlanta">
+        <div class="apartadoInfoPlanta">
+            <h2>Características</h2>
+            <hr>
+            <br>
+            <ul>
+                <li>Es de porte colgante, con unas hojas largas y luminosas. Desarrolla en ellas unos estolones y unas diminutas flores de color blanco.</li>
+                <li>Se caracteriza por unas hojas alargadas y afiladas, con tonos verdes y algunos toques en amarillo y blanco.</li>
+                <li>Consigue eliminar el 96% del monóxido de carbono en tan solo 24 horas</li>
+            </ul>
+
+        </div>
+        <div class="apartadoInfoPlanta">
+            <h2>Cuidados</h2>
+            <hr>
+            <br>
+            <ul>
+                <li>No necesita luz directa, puesto que las hojas se pueden secar. Es mejor ubicarla en semisombra.</li>
+                <li>Aguanta temperaturas mínimas de -2 °C y máximas de 30 °C</li>
+                <li>Riego frecuente en verano, 2 o 3 veces a la semana, y moderado en invierno, 1 vez a la semana.</li>
+                <li>La tierra debe de permanecer húmeda.</li>
+            </ul>
+
+        </div>
+        <div class="apartadoInfoPlanta">
+            <h2>Recomendaciones</h2>
+            <hr>
+            <br>
+            <ul>
+                <li>En primavera-verano es mejor abonar cada dos semanas. En otoño-invierno, será suficiente con una vez al mes.</li>
+                <li>Las plagas como la cochinilla y los pulgones pueden eliminarse fácilmente con un insecticida.</li>
+                <li>Para los golpes de calor del verano, lo mejor es colocar la cinta en el interior de la casa. </li>
+            </ul>
+
+        </div>
+    </div>
+</section>
+
+    <!--modal acceso usuario-->
+    <div class="modal" id="acceso">
+        <div id="accesoModal">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">Bienvenido</div>
+                    <form id="loginform">
+                        <input type="text" name="usuario" placeholder="Usuario" class="campoFormulario" required>
+                        <input type="password" placeholder="Contraseña" name="password" class="campoFormulario"
+                            required>
+                        <label for="recordar" class="formRecordarme"><input type="checkbox" id="recordar">Recordarme en
+                            este
+                            equipo</label>
+
+                        <button type="submit" title="Acceder" name="Acceder">Acceder</button>
+                    </form>
+                </div>
+                <div class="inferior">
+                    <a href="Info_Cintas.html">Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!--Añadimos el pie de página-->
+    <footer id="pie">
+        <div class="content">
+            <div class="top">
+                <div></div>
+                <div id="ubicacion">
+                    <P>UBICACIÓN:</P>
+                </div>
+                <div id="siguenos">
+                    <P>SÍGUENOS:</P>
+                </div>
+            </div>
+            <div class="top">
+                <div class="copy-details">
+                    <span class="copy_name">© 2022 Reservados todos los derechos</span>
+                </div>
+                <div class="ubicacionIcono">
+                    <a href="https://www.google.es/maps/place/I.E.S.+Abastos/@39.4676146,-0.3886331,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f46da4855e1:0x9c6c795bc92d164e!8m2!3d39.4676091!4d-0.388645?hl=es"
+                        target="_blank"> I.E.S. Abastos, Carrer D'Alberic, Valencia <i
+                            class="fa-sharp fa-solid fa-location-dot" id="iconoUbicacion"></i></a>
+
+                </div>
+                <div class="media-icons">
+                    <a href="" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="" title="Youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>

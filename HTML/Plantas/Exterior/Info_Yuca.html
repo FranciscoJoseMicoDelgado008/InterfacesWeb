@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuca</title>
+    <link rel="stylesheet" href="../../../CSS/CssPlantas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<header>
+    <!--icono acceso web-->
+    <a href="#acceso" title="Acceder" id="iconoAcceso"><i class="fa-solid fa-user"></i></a>
+
+    <!-- menú de navegación-->
+    <nav class="navegacion">
+
+        <!--aquí añadimos el logo-->
+        <a href="../../../HTML/Principal/WebPlantas.html"><img class="logo" src="../../../Imagenes/Principal/Logos/logoblanco.png"></a>
+
+        <!--menú bar para movil/tablet-->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <!--aquí añadimos el menú-->
+        <ul class="menu">
+            <li><a href="">Plantas <span class="fas fa-caret-down"></span></a>
+                <ul class="submenu">
+                    <li><a href="../../Plantas/Interior/PlantasInterior.html">Interior </a></li>
+                    <li><a href="../../Plantas/Exterior/PlantasExterior.html">Exterior </a></li>
+                    <li><a href="../../Plantas/Cactus/Cactus.html">Cáctus </a></li>
+                </ul>
+            </li>
+            <li><a href="">Accesorios <span class="fas fa-caret-down"></span></a>
+                <ul class="submenu">
+                    <li><a href="../../Accesorios/Macetas.html">Macetas</a></li>
+                    <li><a href="../../Accesorios/Abonos.html">Abonos</a></li>
+                    <li><a href="../../Accesorios/Herramientas.html">Herramientas</a></li>
+                    <li><a href="../../Accesorios/Riego.html">Riego</a></li>
+                </ul>
+            </li>
+            <li><a href="../../Estaciones/estaciones.html">Estaciones</a>  
+            </li>
+            <li><a href="../../Informacion/Informacion.html">Información</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--El breadcrumb, para saber donde nos encontramos en la página-->
+<ul class="breadcrumb">
+    <li><a href="../../Principal/WebPlantas.html">Inicio</a></li>
+    <li><a href="PlantasExterior.html">Plantas Exterior</a></li>
+    <li>Yuca</li>
+</ul>
+<section>
+    <div class="cabeceraInfoPlantas">
+        <h1>Yuca</h1>
+        <div class="positionFotoInfo">
+            <div class="tamanyoFotoPlantaInfo" id="plantaExterior1"></div><br>
+        </div>
+        <p> La Yucca es un arbusto perenne tropical, exótico y muy vistoso, perfecto 
+            para decorar un rincón de tu hogar aportando color y vida. Se caracteriza por 
+            tener un tronco leñoso y poco ramificado. Posee largas hojas lanceoladas de color verde que, básicamente, salen de una especie de roseta.</p>  
+    </div>
+</section>
+<section>
+    <div class="infoPlanta">
+        <div class="apartadoInfoPlanta">
+            <h2>Características</h2>
+            <hr>
+            <br>
+            <ul>
+                <li>No es apta para mascotas ya que puede ser muy tóxica en dosis muy altas.</li>
+                <li>Este cultivo se utiliza en diferentes ámbitos como en la gastronomía alimenticia, como uso medicinal, como fuente de almidón y como alimento para los animales. </li>
+                <li>Los análisis químicos del producto sugieren que es una fuente muy buena de energía y carbohidratos, así como tambien de calcio, fósforo y ácido ascórbico.</li>
+            </ul>
+
+        </div>
+        <div class="apartadoInfoPlanta">
+            <h2>Cuidados</h2>
+            <hr>
+            <br>
+            <ul>
+                <li>Colocarla en un sitio con luz directa.</li>
+                <li>Regarla una vez a la semana en verano y cada 20 días en invierno.</li>
+                <li>Cualquier tipo de humedad le va bien.</li>
+            </ul>
+
+        </div>
+        <div class="apartadoInfoPlanta">
+            <h2>Recomendaciones</h2>
+            <hr>
+            <br>
+            <ul>
+                <li>Está preparada para soportar sequías y aguanta mucho. Por lo que si estás dudando entre si regarla o no, mejor espera.</li>
+                <li>Para que se desarrolle, es imprescindible transplantar la yuca hasta que sea una planta adulta. Los tres o cuatro primeros años, hay que cambiarla a una maceta mayor.</li>
+            </ul>
+
+        </div>
+    </div>
+</section>
+
+    <!--modal acceso usuario-->
+    <div class="modal" id="acceso">
+        <div id="accesoModal">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">Bienvenido</div>
+                    <form id="loginform">
+                        <input type="text" name="usuario" placeholder="Usuario" class="campoFormulario" required>
+                        <input type="password" placeholder="Contraseña" name="password" class="campoFormulario"
+                            required>
+                        <label for="recordar" class="formRecordarme"><input type="checkbox" id="recordar">Recordarme en
+                            este
+                            equipo</label>
+
+                        <button type="submit" title="Acceder" name="Acceder">Acceder</button>
+                    </form>
+                </div>
+                <div class="inferior">
+                    <a href="Info_Yuca.html">Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!--Añadimos el pie de página-->
+    <footer id="pie">
+        <div class="content">
+            <div class="top">
+                <div></div>
+                <div id="ubicacion">
+                    <P>UBICACIÓN:</P>
+                </div>
+                <div id="siguenos">
+                    <P>SÍGUENOS:</P>
+                </div>
+            </div>
+            <div class="top">
+                <div class="copy-details">
+                    <span class="copy_name">© 2022 Reservados todos los derechos</span>
+                </div>
+                <div class="ubicacionIcono">
+                    <a href="https://www.google.es/maps/place/I.E.S.+Abastos/@39.4676146,-0.3886331,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f46da4855e1:0x9c6c795bc92d164e!8m2!3d39.4676091!4d-0.388645?hl=es"
+                        target="_blank"> I.E.S. Abastos, Carrer D'Alberic, Valencia <i
+                            class="fa-sharp fa-solid fa-location-dot" id="iconoUbicacion"></i></a>
+
+                </div>
+                <div class="media-icons">
+                    <a href="" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="" title="Youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
