@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas</title>
+    <!--referencia a hoja de estilo-->
+    <link rel="stylesheet" href="../../CSS/CssPlantas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <!--icono acceso web-->
+        <a href="#acceso" title="Acceder" id="iconoAcceso"><i class="fa-solid fa-user"></i></a>
+
+        <!-- menú de navegación-->
+        <nav class="navegacion">
+
+            <!--aquí añadimos el logo-->
+            <a href="../../HTML/Principal/WebPlantas.html"><img class="logo" src="../../Imagenes/Principal/Logos/logoblanco.png"></a>
+
+            <!--menú bar para movil/tablet-->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <!--aquí añadimos el menú-->
+            <ul class="menu">
+                <li><a href="">Plantas <span class="fas fa-caret-down"></span></a>
+                    <ul class="submenu">
+                        <li><a href="../Plantas/Interior/PlantasInterior.html">Interior </a></li>
+                        <li><a href="../Plantas/Exterior/PlantasExterior.html">Exterior </a></li>
+                        <li><a href="../Plantas/Cactus/Cactus.html">Cáctus </a></li>
+                    </ul>
+                </li>
+                <li><a href="">Accesorios <span class="fas fa-caret-down"></span></a>
+                    <ul class="submenu">
+                        <li><a href="../Accesorios/Macetas.html">Macetas</a></li>
+                        <li><a href="../Accesorios/Abonos.html">Abonos</a></li>
+                        <li><a href="../Accesorios/Herramientas.html">Herramientas</a></li>
+                        <li><a href="../Accesorios/Riego.html">Riego</a></li>
+                    </ul>
+                </li>
+                <li><a href="../Estaciones/estaciones.html">Estaciones</a>  
+                </li>
+                <li><a href="../Informacion/Informacion.html">Información</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--El breadcrumb, para saber donde nos encontramos en la página-->
+    <ul class="breadcrumb">
+        <li><a href="../Principal/WebPlantas.html">Inicio</a></li>
+        <li>Herramientas</li>
+    </ul>
+
+    <!--Imagen cabecera de las paginas secundarias-->
+    <section>
+        <div class="positionImage" id="fotoHerramientasCabecera">
+            <h1>Herramientas</h1>
+        </div>
+    </section>
+
+    <!--Texto explicativo sobre abonos-->
+    <section class="textoExplicativo">
+        <h1>¿Cómo elegir tus herramientas de jardinería?</h1><br>
+        <p>Las herramientas de jardinería nos facilitan mucho la tarea de mantenimiento en nuestro jardín. 
+            Debemos equiparnos con herramientas de buena calidad para asegurarnos de su durabilidad en el tiempo 
+            y evitar accidentes por roturas. Es recomendable que nuestras herramientas de jardinería 
+            sean de acero, mejor aún si es acero templando para evitar deformaciones y roturas. Asimismo, 
+            es preferible elegir herramientas que estén tratadas contra la oxidación y la humedad. Recuerda 
+            que la mayoría de las herramientas de jardinería que utilizamos son manuales asique también deberás 
+            tener en cuenta su peso, una herramienta ligera te evitará realizar un esfuerzo innecesario.</p>
+    </section>
+
+    <!--Tabla plantas de interior; Primera columna-->
+    <section class="bodyContainer">
+        <table class="tftable6">
+            <tr>
+                <td class="tamanyoFotoPlanta bordeImagenes" id="herramienta1"></td>
+            </tr>
+            <tr valign="TOP">
+                <td>
+                    <h2 class="nombrePlanta">Guantes</h2><br>
+                    <p class="textoHerramienta">Los guantes son necesarios para proteger limpias y cuidadas nuestras manos y antebrazos. Los hay de diferentes materiales adaptados para distintas actividades.</p>
+                </td>
+            </tr>
+
+            <tr class="segundaFilaPlantas">
+                <td class="tamanyoFotoPlanta bordeImagenes" id="herramienta2"></td>
+            </tr>
+            <tr valign="TOP">
+                <td class="tamanyoNombrePlanta">
+                    <h2 class="nombrePlanta">Rastrillo</h2><br>
+                    <p class="textoHerramienta">El rastrillo es una herramienta fundamental para arrastrar restos vegetales y alisar y emparejar el sustrato. Puede ser de mango largo o corto. </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tamanyoFotoPlanta bordeImagenes" id="herramienta3"></td>
+            </tr>
+            <tr valign="TOP">
+                <td>
+                    <h2 class="nombrePlanta">Tijeras</h2><br>
+                    <p class="textoHerramienta">Son ideales para podar pequeñas ramas débiles, quitar flores marchitas, cosechar tomates y otros frutos que no se deban desgarrar, cortar hilos para entutorar, etc</p>
+                </td>
+            </tr>
+        </table>
+
+        <!--Tabla plantas de interior; Segunda columna-->
+
+        <!--La tabla se hace por diferentes columnas ya que la primera casilla de esta será más pequeña
+        para conseguir el efecto escalera.-->
+
+        <table class="tftable7">
+            <tr>
+                <td class="tamanyoFotoPlantaEscalera bordeImagenes" id="herramienta4"></td>
+            </tr>
+            <tr valign="TOP">
+                <td>
+                    <h2 class="nombrePlanta">Azada de Horquilla</h2><br>
+                    <p class="textoHerramienta">La azada es una herramienta especialmente desarrollada para cavar, romper terrones, remover la tierra y escardar las malas hierbas.</p>
+                </td>
+            </tr>
+
+            <tr class="segundaFilaPlantas">
+                <td class="tamanyoFotoPlanta bordeImagenes" id="herramienta5"></td>
+            </tr>
+            <tr valign="TOP">
+                <td class="tamanyoNombrePlanta">
+                    <h2 class="nombrePlanta">Regadera</h2><br>
+                    <p class="textoHerramienta">Para regar semilleros y otras plantas donde no llegue el sistema de riego instalado o donde se precise un riego puntual. No es recomendable cargar con regaderas de más de 8 litros.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tamanyoFotoPlanta bordeImagenes" id="herramienta6"></td>
+            </tr>
+            <tr valign="TOP">
+                <td>
+                    <h2 class="nombrePlanta">Pala</h2><br>
+                    <p class="textoHerramienta">Las palas y palitas son indispensables para trasplantes. Abren huecos de mayor o menor profundidad para sembrar semillas y trasplantar plantones, arbustos y árboles.</p>
+                </td>
+            </tr>
+        </table>
+
+        <!--Linea divisoria-->
+        <div class="linea-vertical" style="height:77em;"></div>
+
+        <!--Apartado datos curiosos-->
+        <aside>
+            <div>
+                <h1>Te ayudamos a trasplantar tu planta</h1><br><br>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/B43MUFdCkOg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+
+                    <ol><br>
+                        <li>Poner piedras en la base.</li>
+                        <li>Poner tierra nueva.</li>
+                        <li>Sacar planta de la maceta.</li>
+                        <li>Colocar la planta en el centro la maceta nueva. </li>
+                        <li>Rellenar el espacio sobrante.</li>
+                        <li>Nivelar la tierra.</li>
+                        <li>Dejar huecos.</li>
+                        <li>Prensar la tierra.</li>
+                        <li>Regar abundantemente.</li>
+                    </ol>
+                </div>
+    
+
+
+            <!--Frase debajo de curiosidades-->
+            <section class="seccionFraseHerramientas">
+            <p id="positionFraseRiego" class="frase"><i class="fa-sharp fa-solid fa-quote-right quoteGrande quotePequenya"></i>
+                Mi jardín es mi más bella obra de arte. </p>
+            <p id="autor" class="autorPequenyo">Claude Monet.</p>
+            </section>
+        </aside>
+    </section>
+
+    <!--Imagen anuncio paginas secundarias-->
+    <section>
+        <div class="positionAnuncio" id="fotoAnuncioPlantasInterior">
+            <a href="../Plantas/Interior/PlantasInterior.html"><h2>Plantas de interior</h2></a>
+        </div>
+    </section>
+
+
+
+        <!--modal acceso usuario-->
+        <div class="modal" id="acceso">
+            <div id="accesoModal">
+                <div id="central">
+                    <div id="login">
+                        <div class="titulo">Bienvenido</div>
+                        <form id="loginform">
+                            <input type="text" name="usuario" placeholder="Usuario" class="campoFormulario" required>
+                            <input type="password" placeholder="Contraseña" name="password" class="campoFormulario"
+                                required>
+                            <label for="recordar" class="formRecordarme"><input type="checkbox" id="recordar">Recordarme en
+                                este
+                                equipo</label>
+    
+                            <button type="submit" title="Acceder" name="Acceder">Acceder</button>
+                        </form>
+                    </div>
+                    <div class="inferior">
+                        <a href="Herramientas.html">Volver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Añadimos el pie de página-->
+    <footer id="pie">
+        <div class="content">
+            <div class="top">
+                <div></div>
+                <div id="ubicacion">
+                    <P>UBICACIÓN:</P>
+                </div>
+                <div id="siguenos">
+                    <P>SÍGUENOS:</P>
+                </div>
+            </div>
+            <div class="top">
+                <div class="copy-details">
+                    <span class="copy_name">© 2022 Reservados todos los derechos</span>
+                </div>
+                <div class="ubicacionIcono">
+                    <a href="https://www.google.es/maps/place/I.E.S.+Abastos/@39.4676146,-0.3886331,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f46da4855e1:0x9c6c795bc92d164e!8m2!3d39.4676091!4d-0.388645?hl=es"
+                        target="_blank"> I.E.S. Abastos, Carrer D'Alberic, Valencia <i
+                            class="fa-sharp fa-solid fa-location-dot" id="iconoUbicacion"></i></a>
+
+                </div>
+                <div class="media-icons">
+                    <a href="" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="" title="Youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
