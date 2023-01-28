@@ -34,7 +34,7 @@ img.logo {
 /*Propiedades icono acceso web*/
 a#iconoAcceso {
     float: right;
-    margin: 0 6%;
+    margin: 10px 6%;
     border-radius: 50%;
     text-align: center;
     line-height: 100px;
@@ -43,13 +43,20 @@ a#iconoAcceso {
     text-decoration: none;
     transition: all 0.4s ease;
 }
-
+.fa-solid.fa-user{
+    font-weight: 100 !important;
+}
+.textoAcceso{
+    color: white;
+    font-size: 15px;
+    font-family: new times roman;
+}
 /*Fin Propiedades icono acceso web*/
 
 /*propiedad select idioma*/
 #idioma{
     float: right;
-    margin: 40px -4%;
+    margin: 50px -4%;
     line-height: 100px;
     padding: 4px 10px;
     font-size: 12px;
